@@ -21,10 +21,23 @@ package mx.com.certificacion.tema.nueve;
  */
 public class StuckTurkeyCage implements AutoCloseable {
 
+    
+   /**
+   * Método que se debe de sobreEscribir al implementar
+   * AutoCloseable
+   */
     public void close() throws Exception {
         throw new Exception("Cage door does not close");
     }
 
+    /**
+     * 
+     * @param args
+     * @throws Exception 
+     * 
+     * Al sobreescribir el método Close se tiene que cachar
+     * la exception
+     */
     public static void main(String[] args) throws Exception {
         try (StuckTurkeyCage t = new StuckTurkeyCage()) {
         } catch (Exception e) {
