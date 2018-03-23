@@ -3,14 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mx.com.certificacion.tema.cinco;
+package mx.com.patrones.proxypattern;
 
 /**
  *
  * @author consultor006
  */
-public class Test {
-    public static void main(String[] args) {
-        System.out.println("cesar \t cesar \t");                
-    }
+public interface Service {
+    public void foobar();
 }

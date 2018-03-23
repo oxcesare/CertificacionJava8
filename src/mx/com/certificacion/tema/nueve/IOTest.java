@@ -7,16 +7,12 @@ package mx.com.certificacion.tema.nueve;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.io.IOException;
-import java.nio.file.AccessDeniedException;
-import java.nio.file.NoSuchFileException;
 
 /**
  *
- * @author consultor006
- * Aquí esta dando error en tiempo de ejecucción
- * NoSuchFileException no es una subclase de la clase Exception IOException
- * 
+ * @author consultor006 Regresa un error en tiempo de ejecucción La exception
+ * NoSuchFileException no es una subclase de la clase Exception
+ *
  */
 public class IOTest {
 
@@ -26,7 +22,7 @@ public class IOTest {
             while ((line = bfr.readLine()) != null) {
                 System.out.println(line);
             }
-        } catch (IOException | NoSuchFileException | AccessDeniedException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }

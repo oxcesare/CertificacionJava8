@@ -3,17 +3,27 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mx.com.certificacion.tema.uno;
-
-import java.sql.Date;
+package mx.com.escuela.capitulo.uno.clasesAvanzadas;
 
 /**
  *
  * @author consultor006
  */
-public class Busqueda {
+public class Internas {
+    IceCream ice;
+    
+    
+    public Internas(){
+        
+    }
+    
+    public void interno(){
+        ice.a();
+    }
+    
+    
     public static void main(String[] args) {
-        String cadena="2017-11-1418:00:00";
-        System.out.println(cadena.substring(10,18));
+        Internas i = new Internas();
+        i.interno();
     }
 }

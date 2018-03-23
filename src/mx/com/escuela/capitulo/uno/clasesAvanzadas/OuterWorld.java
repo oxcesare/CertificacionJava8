@@ -3,15 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mx.com.certificacion.tema.uno;
+package mx.com.escuela.capitulo.uno.clasesAvanzadas;
 
 /**
  *
  * @author consultor006
  */
-public class Outer2 {
-    private void Outer() { }    
-    
-    protected class Inner {    
+public class OuterWorld {
+
+    public InnerPeace i = new InnerPeace();
+
+    private class InnerPeace {
+
+        private String reason = "none";
     }
 }

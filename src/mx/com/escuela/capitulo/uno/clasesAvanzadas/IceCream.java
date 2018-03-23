@@ -10,5 +10,12 @@ package mx.com.escuela.capitulo.uno.clasesAvanzadas;
  * @author consultor006
  */
 public class IceCream {
-    
+
+    public void a() {
+        System.out.println("Llamando desde la clase ICeCream");
+    }
+
+    public void b() {
+    }
+
 }
