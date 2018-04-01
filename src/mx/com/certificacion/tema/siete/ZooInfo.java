@@ -37,5 +37,22 @@ public class ZooInfo {
             if(service !=null)
                 service.shutdown();
         }
+        
+        System.out.println("*************************************************");
+        
+        metodosService();
+    }
+    
+    public static void metodosService(){
+        System.out.println("Metodos de la interface Service");
+        
+        ExecutorService service =null;
+        service = Executors.newSingleThreadExecutor(); //Con esto instancio el objeto que crea el hilo
+        
+        System.out.println("service.execute();");
+        System.out.println("service.submit(Callable <t> task);");
+        System.out.println("service.submit(Runnable task);");
+        System.out.println("service.invokeAll(tasks);");
+        System.out.println("service.invokeAny(tasks);");        
     }
 }
