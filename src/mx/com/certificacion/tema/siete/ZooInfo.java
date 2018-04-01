@@ -5,6 +5,9 @@
  */
 package mx.com.certificacion.tema.siete;
 
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
 /**
  *
  * @author consultor006
@@ -13,7 +16,26 @@ package mx.com.certificacion.tema.siete;
  * ExecutorService, esta nos permite crear hilos, 
  * administrarlos, calendarizarllos con una API ya establecida y
  * haciendo uso de programación funcional.
+ * 
+ * Se pueden tantos objetos como se necesiten de la interface Executor
  */
 public class ZooInfo {
     
+    public static void main(String[] args) {
+        ExecutorService service = null;
+        try {
+            service = Executors.newSingleThreadExecutor();
+            System.out.println("begin");
+            service.execute(()-> System.out.println("Printing zoo inventory"));
+            service.execute(()-> {for(int i=0; i<3; i++)
+                    System.out.println("Printing record:"+i);
+                });
+            
+            service.execute(()-> System.out.println("Printing zoo inventory"));
+            System.out.println("end");
+        } finally {
+            if(service !=null)
+                service.shutdown();
+        }
+    }
 }
