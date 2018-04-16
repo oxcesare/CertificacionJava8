@@ -8,6 +8,8 @@ package mx.com.ejercicios.java8.asociado.dos;
 /**
  *
  * @author consultor006
+ * 
+ * Tema de paso por referencia y paso por valor
  */
 public class EjercicioUno {
     public static void main(String[] args) {
