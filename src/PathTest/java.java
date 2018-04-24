@@ -9,6 +9,23 @@ package PathTest;
  *
  * @author consultor006
  */
-public class java {
+public class java  extends Otro{
+
+    public java() {
+     //   super();
+    }
+    
+    public static void main(String[] args) {
+        java j = new java();
+                
+    }
+    
+    
+}
+
+class Otro{
+
+    public Otro() {
+    }
     
 }
