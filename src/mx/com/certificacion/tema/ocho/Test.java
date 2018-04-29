@@ -3,23 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mx.com.certificacion.tema.cuatro;
+package mx.com.certificacion.tema.ocho;
 
 /**
  *
  * @author consultor006
  */
-class Printer<String> {
-    private String t;
-    Printer(String t){
-        this.t = t;
-    }
-}
-
-
-class Pruebas {
+public class Test {
     public static void main(String[] args) {
-        Printer<Boolean> obj = new Printer<>(true);
-        System.out.println(obj);
+        
     }
+   
 }

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mx.com.certificacion.tema.cuatro;
+package mx.com.certificacion.tema.cuatro.Stream;
 
 import java.util.Arrays;
 import java.util.List;
