@@ -7,17 +7,12 @@ package mx.com.certificacion.tema.avanzado;
 
 /**
  *
- * @author consultor006
- * En una clase no puede quedar vacio el operador diamond 
+ * @author consultor006 En una clase no puede quedar vacio el operador diamond
  */
-public class SpecialSorter<K>{
-     
+public class SpecialSorter<K> {
 
     public static void main(String[] args) {
-        
+
     }
- 
- 
- 
-    
+
 }

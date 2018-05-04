@@ -49,6 +49,7 @@ public class SortTest {
         
         java.util.Collections.sort(al, (p1, p2)->p1.dob.compareTo(p2.dob));
          
+        //Llamada desde la clase a un método
         java.util.Collections.sort(al, SortTest::diff);
           
         java.util.Collections.sort(al, new MySorter()::compare);         

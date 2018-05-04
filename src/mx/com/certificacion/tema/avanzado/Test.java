@@ -14,9 +14,9 @@ import java.util.Map;
  * @author consultor006
  */
 public class Test {
-    
+
     public static void main(String[] args) {
-        Map<String , List<? extends CharSequence>> stateCitiesMap = new HashMap<String, List<? extends CharSequence>>();
+       Map<String, List<? extends CharSequence>> stateCitiesMap = new HashMap<String, List<? extends CharSequence>>();
     }
-    
+
 }

@@ -12,10 +12,11 @@ import java.util.List;
  * @author consultor006
  */
 public class Test7 {
+
     public static void main(String[] args) {
-        
+
     }
-    
+
     public static <E extends CharSequence> List<? super E> doIt(List<E> nums) {
         List<? super E> List = null;
         return List;
