@@ -15,9 +15,8 @@ package mx.com.certificacion.tema.clases.avanzadas;
  */
 class SuperClass {
 
-    
     public SuperClass(int a, int b){
-        
+          
     }
     
     

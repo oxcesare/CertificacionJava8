@@ -17,6 +17,10 @@ public class IntPair {
     private int a;
     private int b;
 
+    public IntPair() {
+        System.out.println("Inicializa Clase");
+    }
+          
     public void setA(int i) {
         this.a = i;
     }
@@ -38,6 +42,10 @@ public class IntPair {
     }
     
     public int hashCode(){
-        return a-b;
+        return this.a-b;
+    }
+    
+    public static void main(String[] args) {
+         IntPair c = new IntPair();             
     }
 }

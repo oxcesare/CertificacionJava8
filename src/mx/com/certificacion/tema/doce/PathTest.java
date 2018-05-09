@@ -14,10 +14,14 @@ import java.nio.file.Paths;
  */
 public class PathTest {
 
-    static Path p1 = Paths.get("C:\\Simulador Java 8");
+    static Path p1 = Paths.get("C:\\cursoSpring");
 
+    /**
+     * Método para obtener el root padre
+     * @return 
+     */
     public static String getRoot() {
-        String root = p1.getRoot().toString();
+        String root = p1.getParent().toString();
         return root;
     }
 

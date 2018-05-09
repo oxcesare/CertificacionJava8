@@ -8,6 +8,12 @@ package mx.com.certificacion.threads;
 /**
  *
  * @author consultor006
+ * 
+ * El valor de la variable n  se pasa como parámetro
+ * al constructor y este se inicializa al momento de crear
+ * el Thread e invocar al método run.
+ * La variable n es una variable de instancia. 
+ * 
  */
 class MyClass implements Runnable {
 
@@ -18,7 +24,7 @@ class MyClass implements Runnable {
     }
 
     public static void main(String[] args) {
-        new MyClass(2).run();
+        new MyClass(4).run();
         new MyClass(1).run();
     }
 
