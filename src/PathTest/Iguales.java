@@ -24,18 +24,26 @@ public class Iguales {
         
         System.out.println("Equals"+","+c.equals(d));
         System.out.println(c==d);
-        
-        String a = new String("a");
-        String b = new String("b");
-        
-        System.out.println("Equals String"+","+a.equals(b));
-        System.out.println(a==b);
-      
-        
-        Persona p = new Persona("Cesarin", "Ruiz");
-        Persona t =p; //new Persona("Cesarin", "Ruiz");
-        
-        System.out.println("Equals Persona"+","+p.equals(t));
-        System.out.println(p==t);
+//        
+//        String a = new String("a");
+//        String b = new String("b");
+//        
+//        System.out.println("Equals String"+","+a.equals(b));
+//        System.out.println(a==b);
+//      
+//        
+//        Persona p = new Persona("Cesarin", "Ruiz");
+//        Persona t =p; //new Persona("Cesarin", "Ruiz");
+//        
+//        System.out.println("Equals Persona"+","+p.equals(t));
+//        System.out.println(p==t);
+//        
+//        System.out.println("*************************************");
+//        
+//        String uno="1";
+//        
+//        if(Integer.parseInt(uno)==1){
+//            System.out.println("UNO");
+//        }
     }
 }

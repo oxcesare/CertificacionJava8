@@ -23,7 +23,10 @@ import java.nio.file.Paths;
 public class PathTest {
 
     public static void main(String[] args) {
-        Path p1 = Paths.get("c:\\code\\java\\PathTest.java");   
-        System.out.println(p1.getName(3).toString());
+      //  Path p1 = Paths.get("c:\\code\\java\\PathTest.java");   
+       // System.out.println(p1.getName(3).toString());
+        
+        int [] a = {1,2,3,4};
+        System.out.println("a[0]"+""+a[0]);
     }   
 }
