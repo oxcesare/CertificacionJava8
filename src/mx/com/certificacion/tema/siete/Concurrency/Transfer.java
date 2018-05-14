@@ -18,15 +18,23 @@ import java.util.concurrent.Executors;
 
 public class Transfer implements Runnable {
 
-    Account from, to;
-    double amount;
+    Account from, to; //Variable de clase 
+    double amount;  //Variable de instancia 
 
+    
+    
     public Transfer(Account from, Account to, double amount) {
         this.from = from;
         this.to = to;
         this.amount = amount;
     }
 
+    
+    /**
+     * Cuando se vean dos bloques synchronized estaremos hablando 
+     * de bloqueo de hilos 
+     * 
+     */
     public void run() {
         synchronized (from) {
             from.setBalance(from.getBalance() - amount);

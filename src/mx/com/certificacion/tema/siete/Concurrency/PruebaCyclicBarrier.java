@@ -12,7 +12,7 @@ import java.util.concurrent.CyclicBarrier;
  * @author consultor006
  *
  * Clase que demuestra el uso de CycliBarrier la cual permite hacer esperar un
- * bloque de hilos sin hacer varias llamadas al métodojoin.
+ * bloque de hilos sin hacer varias llamadas al método join.
  */
 public class PruebaCyclicBarrier {
 

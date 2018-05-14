@@ -21,6 +21,7 @@ public class Java8CallableDemo {
 
     public static void main(String[] args) {
         final List<Integer> integers = Arrays.asList(1, 2, 3, 4, 5);
+       
         Callable<Integer> callableObj = () -> {
             int result = integers.stream().mapToInt(i -> i.intValue()).sum();
             return result;
