@@ -9,9 +9,10 @@ package mx.com.capitulo.uno;
  *
  * @author consultor006
  * 
- * Para que imprima uno el siguiente codigo 
- * se debe de invocar con la palabra reservada this a la variable
- * version que esta declarada en la interface. 
+ * Para que se imprima el valor uno  en el siguiente codigo 
+ * se debe de invocar con la palabra reservada "this" a la variable
+ * version que esta declarada en la interface haciendo también un 
+ * cast
  * 
  * si solo se utiliza this dentro del metodo que implementa la interface
  * imprimira el valor de 2 

@@ -13,14 +13,18 @@ package mx.com.ejercicios.java8.asociado.cinco;
  * constructor de la clase padre se invoca el método run
  * de la clase padre y después se sobreEscrbibe en la clase
  * hija con el valor antes mencionado. 
+ * 
+ * Este ejercicio sufre algunos cambios y hay que recordar que 
+ * una clase padre no puede ser casteada a una subclase. 
  */
+
 public class Test13 extends SuperTest13 {
 
     public static void main(String[] args) {
         Test13 q = (Test13)new SuperTest13();
         System.out.println(q.s);
     }
-
+ 
     public void run() {
         s = "Sub";
     }

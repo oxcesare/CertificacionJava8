@@ -16,7 +16,6 @@ class Printer<String> {
     }
 }
 
-
 class Pruebas {
     public static void main(String[] args) {
         Printer<Boolean> obj = new Printer<>(true);
