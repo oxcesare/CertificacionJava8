@@ -17,11 +17,15 @@ package mx.com.progol.ganador;
 public class Melate {
     public static void main(String[] args) {         
         int numeros =0;
+        int arr [] = new int[6];
         
-        for( int i=0; i<=6; i++){
-            numeros = (int) (Math.random() * 56) + 1;
-            System.out.println("Número"+" "+numeros);
+        for( int i=0; i<=5; i++){
+            numeros = (int) (Math.random() * 56) + 1;            
+            System.out.println("Números"+ " " + numeros);
         }
+        
+        int i =   Math.round(3.5f);
+        System.out.println("i"+""+i);
         
     }
 }
