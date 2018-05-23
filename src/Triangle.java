@@ -15,9 +15,9 @@ public class Triangle {
     public int height;
     private static double ANGLE;
 
-    public static double getAngle();
+    //public static double getAngle();
     
     public static void Main(String[] args) {
-        System.out.println(getAngle());
+        //System.out.println(getAngle());
     }
 }

@@ -21,17 +21,17 @@ class A extends Thread {
 }
 
 public class TestClass {
-
+    static protected int i = 0;
     public void run() {
-        for (; i < 5; i++) {
+        for (; i < 5; i++) { //se puede clarar la variable "i" desde antes 
             System.out.println("World");
         }
     }
 
     public static void main(String args[]) {
         Thread t1 = new A();
-        Thread t2 = new TestClass();
-        t2.start();
+       // Thread t2 = new TestClass();
+       // t2.start();
         t1.start();
     }
 

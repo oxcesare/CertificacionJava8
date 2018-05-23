@@ -8,15 +8,18 @@ package mx.com.ejercicios.java8.asociado.tres;
 /**
  *
  * @author consultor006
+ * 
+ * El error esta en el constructor con dos parametros int 
+ * de la clase Subclass.
  */
 public class SubClass extends SuperClass {
 
     int i, j, k;
 
-    public SubClass(int m, int n) {
-        i = m;
-        j = m; //1      
-    } 
+//    public SubClass(int m, int n) {
+//        i = m;
+//        j = m; //1      
+//    } 
 
     public SubClass(int m) {
         super(m); //2 

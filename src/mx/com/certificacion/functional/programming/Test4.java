@@ -58,18 +58,8 @@ public class Test4 {
         s.peek(System.out::println).filter(x ->x>2).count();
     }
     
-    private static void generados(){
-        
+    private static void generados(){        
         List<Integer> l = IntStream.range(1,6).mapToObj(i->i).collect(Collectors.toList());
-        l.forEach(System.out::println);
-        
-      
-        
-    }
-    
-    private static void otro (){
-          List<Integer> p = IntStream.range(1,6).mapToObj(1->i).forEach(System.out::println);
-    }
-    
-
+        l.forEach(System.out::println);        
+    }    
 }

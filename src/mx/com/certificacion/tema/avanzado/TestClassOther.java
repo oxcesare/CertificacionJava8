@@ -27,7 +27,7 @@ public class TestClassOther {
             System.out.println("date"+date);
         }
             
-        System.out.println("java.util.Date"+java.util.Date);
+        //System.out.println("java.util.Date"+java.util.Date); //Incorrecta implementacion 
     }
 
 }

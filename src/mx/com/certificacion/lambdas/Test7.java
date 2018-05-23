@@ -12,6 +12,9 @@ import java.util.function.Predicate;
 /**
  *
  * @author consultor006
+ * 
+ * Mala implementacion de la interface funcional Predicate de Java 8 
+ * 
  */
 public class Test7 {
 
@@ -21,7 +24,7 @@ public class Test7 {
             System.out.println("Checking");
             return i == 4; //2 
         };
-        Predicate even = (Integer i) -> i % 2 == 0;  //3 
-        values.stream().filter(check).filter(even).count(); //4
+       // Predicate even = (Integer i) -> i % 2 == 0;  //3 
+        //values.stream().filter(check).filter(even).count(); //4
     }
 }

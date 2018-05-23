@@ -32,12 +32,12 @@ public class TestClass {
 
     public static void main(String[] args) {
         ArrayList<TestClass> al = new ArrayList<>();
-        al.add(new TestClass("dupont dr", "28217"));
-        al.add(new TestClass("sharview cir", "28217"));
-        al.add(new TestClass("yorkmont ridge ln", "11223"));
-        Collections.sort(al);
+       // al.add(new TestClass("dupont dr", "28217"));
+       // al.add(new TestClass("sharview cir", "28217"));
+       // al.add(new TestClass("yorkmont ridge ln", "11223"));
+       // Collections.sort(al);
         for (TestClass a : al) {
-            System.out.println(a.street + " " + a.zip);
+        //    System.out.println(a.street + " " + a.zip);
         }
     }
 }

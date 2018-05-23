@@ -23,7 +23,7 @@ public class FileCopier {
         try (InputStream is = new FileInputStream(records1);
                 OutputStream os = new FileOutputStream(records2);) {  //1             
             if (os == null) {
-                os = new FileOutputStream("c:\\default.txt");  //2    
+                //os = new FileOutputStream("c:\\default.txt");  //2    
             }          
             byte[] buffer = new byte[1024];
             int bytesRead = 0;

@@ -9,7 +9,12 @@ package mx.com.escuela.capitulo.uno.clasesAvanzadas;
  *
  * @author consultor006
  * 
- * Si el return ya esta en el try o en el catch entonces ya no es necesario ponerlo despues del codigo de este bloque.
+ * Si el return ya esta en el try o en el catch 
+ * entonces ya no es necesario ponerlo despues del codigo
+ * de este bloque.
+ * 
+ * 
+ * Nota: Descomentar //return 0.00f; para validar el error 
  * 
  * 
  */
@@ -31,6 +36,6 @@ public class Test4 {
         } finally {
             System.out.println("finally");
         } 
-        return 0.00
+        //return 0.00f;
     }
 }

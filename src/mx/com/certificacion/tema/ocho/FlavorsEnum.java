@@ -10,6 +10,8 @@ package mx.com.certificacion.tema.ocho;
  * @author consultor006
  * Cuando se invoca el método ordinal 
  * este empieza desde Cero,Uno,Dos
+ * 
+ * El metodo hasFine() no existe en una enum 
  */
 public class FlavorsEnum {
     enum Flavor{
@@ -22,7 +24,6 @@ public class FlavorsEnum {
     }    
     public static void main(String[] args) {
         System.out.println(Flavor.CHOCOLATE.ordinal());
-        System.out.println(Flavor.CHOCOLATE.hasFine());
-   
+       // System.out.println(Flavor.CHOCOLATE.hasFine()); //        
     }
 }

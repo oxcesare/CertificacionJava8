@@ -53,4 +53,8 @@ public class Test5 {
         //el metodo reduce en java 8 es para reducir operaciones 
         //en base a ciertos criterios.
     }
+    
+    public void mensaje(){
+        System.out.println("Método core mensaje");
+    }
 }

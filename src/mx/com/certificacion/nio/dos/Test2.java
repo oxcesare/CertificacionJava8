@@ -14,7 +14,6 @@ import java.nio.file.Paths;
  */
 public class Test2 {
 
-   
     static Path p1 = Paths.get("c:\\finance\\data\\reports\\daily\\pnl.txt");
 
     public static String getRoot() {
@@ -25,5 +24,5 @@ public class Test2 {
     public static void main(String[] args) {
         System.out.println(getRoot());
     }
-   
+
 }

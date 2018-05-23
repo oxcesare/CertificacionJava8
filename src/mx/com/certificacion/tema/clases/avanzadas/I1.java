@@ -21,11 +21,16 @@ interface I2 {
     void m1() throws java.sql.SQLException;
 }
 
-class D implements I1, I2 {
+class D //implements I1, I2 // {
 
-    @Override
-    public void m1() throws IOException {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+{
+    //Si descomentamos el método que se esta sobrescribiendo 
+    //manda error ya que las interfaces I1, I2, tiene declarado el mismo metodo 
+    //Con exceptions diferentes 
+    
+    //@Override
+    //public void m1() throws IOException {
+     //   throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+   // }
     
 }

@@ -10,16 +10,18 @@ import java.util.*;
 /**
  *
  * @author consultor006
+ * 
+ * Si dejamos Map m manda un error 
  */
 public class TestClass {
 
     public static void main(String[] args) {       
      // put declaration here      
      Map<Object, ? super ArrayList> m = new LinkedHashMap<Object, ArrayList>(); 
-     Map m = new HashMap();
+    //Map m = new HashMap();
      m.put("1", new ArrayList());    //1      
-     m.put(1, new Object());    //2       
-     m.put(1.0, "Hello");     //3      
+     //m.put(1, new Object());    //2       
+     //m.put(1.0, "Hello");     //3      
      System.out.println(m);    
     }
     

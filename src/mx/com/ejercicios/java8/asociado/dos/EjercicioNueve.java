@@ -18,6 +18,8 @@ import java.util.List;
  * y la estamos invocando dentro de un entorno statico.
  * 
  * Por ello el error en el ciclo for.
+ * 
+ * Nota: Descomentar el código para ver el error.
  */
 public class EjercicioNueve {
 
@@ -35,8 +37,8 @@ public class EjercicioNueve {
         nueve.dogs.add(dog2);
         nueve.dogs.add(dog3);
         
-        for(int i=0; i<dogs.size(); i++){
-            System.out.println(q.dogs.get(i)+",");
-        }
+      //  for(int i=0; i<dogs.size(); i++){
+       ///     System.out.println(q.dogs.get(i)+",");
+       // }
     }
 }

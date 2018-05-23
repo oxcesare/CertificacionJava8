@@ -28,7 +28,7 @@ public class FileCopier {
                 System.out.println("Read and written bytes " + bytesRead);
             }
         } catch (IOException | IndexOutOfBoundsException e) {
-            e = new FileNotFoundException();
+          //  e = new FileNotFoundException(); //Esto es incorrecto de hacer 
             e.printStackTrace();
         }
     }

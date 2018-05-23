@@ -15,9 +15,9 @@ public class Test {
 
     public static void main(String[] args) {
         ReentrantLock rlock = new ReentrantLock();
-        boolean f1 = rlock.lock();
-        System.out.println(f1);
-        boolean f2 = rlock.lock();
-        System.out.println(f2);
+        //boolean f1 = rlock.lock(); //No se puede asignar un valor void a booleano 
+        //System.out.println(f1);
+        //boolean f2 = rlock.lock(); //No se puede asignar un valor void a booleano 
+        //System.out.println(f2);
     }
 }

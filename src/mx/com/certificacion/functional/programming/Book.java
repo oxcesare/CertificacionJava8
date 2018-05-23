@@ -10,6 +10,8 @@ import java.util.function.Supplier;
 /**
  *
  * @author consultor006
+ * 
+ * La interface funcional de Java 8 Supplier no contiene el método getAsDouble 
  */
 public class Book {
 
@@ -43,7 +45,9 @@ public class Book {
         Supplier s1 = b1::getPrice;
         System.out.println(b1.getTitle() + " " + s1.get());
         Supplier s2 = b2::getPrice;
-        System.out.println(b2.getTitle() + " " + s2.getAsDouble);
+        //System.out.println(b2.getTitle() + " " + s2.getAsDouble);
     }
 
 }
+
+

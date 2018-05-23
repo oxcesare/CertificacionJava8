@@ -18,6 +18,6 @@ public class Ejercicio16 {
         Ejercicio16 q = new Ejercicio16();
         String s = "hello wordl";
         System.out.println(s.equals("hello wordl"));
-        System.out.println(s.concat(s.charAt(0)));
+      //  System.out.println(s.concat(s.charAt(0)));
     }
 }

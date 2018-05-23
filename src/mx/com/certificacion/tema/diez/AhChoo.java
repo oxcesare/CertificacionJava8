@@ -24,8 +24,10 @@ public class AhChoo {
     
     public static void main(String[] args) throws SneezeException {
         try {
-            throw new SneezeException();    
-        } catch (SneezeException | SneezeException e) {
+            throw new SneezeException();  // Se lanza un nuevo objeto del tipo de exception 
+                                          //Personalizada SneezeException
+        } catch(Exception e){
+        //catch (SneezeException | SneezeException e) { //Se esta enviando la misma exception
         }
     }
 }

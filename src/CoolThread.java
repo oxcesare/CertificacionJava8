@@ -24,7 +24,7 @@ class CoolThread extends Thread {
         Thread t1 = new CoolThread("AAA");
         t1.setPriority(Thread.MIN_PRIORITY);
         Thread t2 = new CoolThread("BBB");
-        t2.setPriority(Thread.MAX_PRIORITY);,
+        //t2.setPriority(Thread.MAX_PRIORITY);,
         t2.start();
         t1.start();
         

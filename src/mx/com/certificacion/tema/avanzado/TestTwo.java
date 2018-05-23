@@ -16,8 +16,6 @@ public class TestTwo {
 
     public static void main(String[] args) {
         int i = 0;
-
-        m1(list);
     }
 
     public static void m1(List<? extends Number> list) {

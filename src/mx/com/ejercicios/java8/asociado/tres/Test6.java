@@ -8,13 +8,17 @@ package mx.com.ejercicios.java8.asociado.tres;
 /**
  *
  * @author consultor006
+ * 
+ * En esta clase Test6
+ * 
+ * El error esta en la mala asignacion a un arreglo 
  */
 public class Test6 {
     public static void main(String[] args) {
          int[][][] myInt = new int[1][2][3];
          int[][] yourInt = {{1,2},{3,4}};
          
-         myInt[1] = yourInt[0][1]; // mala asignacion a un arreglo, no se debe especificar 
+      //   myInt[1] = yourInt[0][1]; // mala asignacion a un arreglo, no se debe especificar 
                                    //la longitud de la informacion
          
     }

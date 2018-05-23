@@ -13,10 +13,14 @@ import java.io.*;
  * 
  * Clase que representa un mal manejo de exceptions, debido a que 
  * propiamente el metodo copy no lanza ninguna exception.
+ * 
+ * Cuando se utiliza clases IO, File,InputStream, etc.
+ * Se tiene que utilizar IOException
  */
-public class FileCopier {
 
-    public static void copy(String records1, String records2) {
+public class FileCopier {    
+
+    public static void copy(String records1, String records2) throws IOException {
         try {
             InputStream is = new FileInputStream(records1);
             OutputStream os = new FileOutputStream(records2);
@@ -31,7 +35,7 @@ public class FileCopier {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         copy("c:\\temp\\test1.txt", "c:\\temp\\test2.txt");
     }
 

@@ -9,7 +9,7 @@ package mx.com.ejercicios.java8.asociado.dos;
  *
  * @author consultor006
  * 
- * En esta clase se necesita hacer uso de un  castin ya que el valor de i 
+ * En esta clase se necesita hacer uso de un  casting ya que el valor de i 
  * es un Integer  y n es un valor number
  */
 public class Ejercicio10 {

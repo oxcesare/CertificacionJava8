@@ -52,10 +52,10 @@ public class Test {
 
     public static void muestraHorarioDeLosAngeles() {
         LocalDateTime ldt = LocalDateTime.of(2017, 12, 02, 6, 0, 0);
-        ZonedDateTime nyZdt = ldt.atZone(nyZone);
-        ZonedDateTime laZdt = ldt.atZone(laZone);
-        Duration d = Duration.between(nyZdt, laZdt);
-        System.out.println(d);
+        //ZonedDateTime nyZdt = ldt.atZone(nyZone);
+        //ZonedDateTime laZdt = ldt.atZone(laZone);
+        //Duration d = Duration.between(nyZdt, laZdt);
+        //System.out.println(d);
 
     }
 }

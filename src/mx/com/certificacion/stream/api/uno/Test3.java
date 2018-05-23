@@ -21,12 +21,15 @@ import java.time.temporal.TemporalUnit;
  * 
  * Period.ofDays(now) --> mala implementación del metodo ofDays de Periodo
  * 
+ * El metodo ofDatys de Periodo recibe un parametro entero 
+ * no un Instance que es lo que representa el objeto now. 
+ * 
  */
 
 public class Test3 {
     public static void main(String[] args) {
         Instant now = Instant.now();
-        Instant now2= now.truncatedTo(Period.ofDays(now));
-        System.out.println(now2);
+        //Instant now2= now.truncatedTo(Period.ofDays(now));
+        //System.out.println(now2);
     }
 }

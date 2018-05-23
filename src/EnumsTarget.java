@@ -23,7 +23,7 @@ public class EnumsTarget {
         switch(c){
          //   case 0: System.out.println("Ordinal");
         }
-        System.err.println("Class"+flavor);
+        //System.err.println("Class"+flavor); //Objeto mal construido
         System.out.println("Método ordinal" +  " " +  flavor.UNO.getDeclaringClass());
         System.out.println("Método ordinal" +  " " +  flavor.UNO.ordinal());
         

@@ -21,9 +21,8 @@ public class Counter {
 
     void go() {
        
-        Runnable a = new Runnable();
-                
-        Thread t = new Thread(a);
-        t.start();
+        //Runnable a = new Runnable(); //Runnable no se puede instanciar                
+        //Thread t = new Thread(a);
+        //t.start();
     }
 }

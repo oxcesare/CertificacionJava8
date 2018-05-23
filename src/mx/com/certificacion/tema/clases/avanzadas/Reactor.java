@@ -8,6 +8,11 @@ package mx.com.certificacion.tema.clases.avanzadas;
 /**
  *
  * @author consultor006
+ * 
+ * Un objeto abstracto no se puede asignar a un objeto no abstracto
+ * 
+ * Un objeto de una interface no se puede asignar a otro objeto 
+ * de otra interface. 
  */
 public abstract class Reactor implements Vaporizer {
 
@@ -16,8 +21,8 @@ public abstract class Reactor implements Vaporizer {
     }
 
     public static void main(String[] args) {
-        Vaporizer v = new Reactor(); //2         
-        v.vaporize(); //3         
-        v.shutdown2(); //4    
+       // Vaporizer v = new Reactor(); //2         
+        //v.vaporize(); //3         
+        //sv.shutdown2(); //4    
     } 
 }
