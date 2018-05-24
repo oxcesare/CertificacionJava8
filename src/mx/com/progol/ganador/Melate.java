@@ -8,24 +8,21 @@ package mx.com.progol.ganador;
 /**
  *
  * @author consultor006
- * 
- * Clase Melate para generar 6 números aleatorios para 
- * Jugar Melate Semanal.
- * 
+ *
+ * Clase Melate para generar 6 números aleatorios para Jugar Melate Semanal.
+ *
  * Ganar - to Win
  */
 public class Melate {
-    public static void main(String[] args) {         
-        int numeros =0;
-        int arr [] = new int[6];
-        
-        for( int i=0; i<=5; i++){
-            numeros = (int) (Math.random() * 56) + 1;            
-            System.out.println("Números"+ " " + numeros);
+
+    public static void main(String[] args) {
+        int numeros = 0;
+        int arr[] = new int[6];
+
+        for (int i = 0; i <= 5; i++) {
+            numeros = (int) (Math.random() * 56) + 1;
+            System.out.println("Números" + " " + numeros);
         }
-        
-        int i =   Math.round(3.5f);
-        System.out.println("i"+""+i);
-        
+
     }
 }
