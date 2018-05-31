@@ -23,8 +23,8 @@ public class EjercicioCinco {
     public static void main(String[] args) {
         int [][] myInt = {{2,3,4},{4,5,6},{7,8,9}};
         
-        System.out.println(myInt[1][1]);
-        System.out.println(myInt[3][1]);
+        System.out.println(myInt[1][1]); //5
+        System.out.println(myInt[2][2]); //9
         
         List lista = new ArrayList();
         lista.isEmpty();

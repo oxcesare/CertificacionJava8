@@ -8,15 +8,14 @@ package mx.com.escuela.capitulo.uno.clasesAvanzadas;
 /**
  *
  * @author consultor006
- * 
- * Si el return ya esta en el try o en el catch 
- * entonces ya no es necesario ponerlo despues del codigo
- * de este bloque.
- * 
- * 
- * Nota: Descomentar //return 0.00f; para validar el error 
- * 
- * 
+ *
+ * Si el return ya esta en el try o en el catch entonces ya no es necesario
+ * ponerlo despues del codigo de este bloque.
+ *
+ *
+ * Nota: Descomentar //return 0.00f; para validar el error
+ *
+ *
  */
 public class Test4 {
 
@@ -31,11 +30,11 @@ public class Test4 {
             return f;
         } catch (NumberFormatException nfe) {
             System.out.println("Invalid input " + s);
-            f = Float.NaN; 
+            f = Float.NaN;
             return f;
         } finally {
             System.out.println("finally");
-        } 
+        }
         //return 0.00f;
     }
 }

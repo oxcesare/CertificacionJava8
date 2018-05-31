@@ -8,10 +8,9 @@ package mx.com.escuela.capitulo.uno.clasesAvanzadas;
 /**
  *
  * @author consultor006
- * 
- * En el momento que creas un objeto de una clase este a su vez
- * es una instancia de la interface que implementes y de la clase 
- * de la cual estas extendiendo.
+ *
+ * En el momento que creas un objeto de una clase este a su vez es una instancia
+ * de la interface que implementes y de la clase de la cual estas extendiendo.
  */
 interface Vessel {
 }

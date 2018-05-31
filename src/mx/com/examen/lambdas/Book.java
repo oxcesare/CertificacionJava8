@@ -5,8 +5,6 @@
  */
 package mx.com.examen.lambdas;
 
-import java.util.stream.DoubleStream;
-
 /**
  *
  * @author consultor006
@@ -14,10 +12,10 @@ import java.util.stream.DoubleStream;
 public class Book {
 
     private double price;
-    
+
     Book(String windmills_of_the_Gods, double d) {
-        
-    }    
+
+    }
 
     public double getPrice() {
         return price;
@@ -27,5 +25,4 @@ public class Book {
         this.price = price;
     }
 
-    
 }

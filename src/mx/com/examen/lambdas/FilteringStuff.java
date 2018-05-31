@@ -12,11 +12,11 @@ import java.util.function.Predicate;
 /**
  *
  * @author consultor006
- * 
- * Un Stream guarda una lista, y se puede aplicar una interface funcional
- * y esta a su vez ser recorrida por multiples filters
- * 
- * 
+ *
+ * Un Stream guarda una lista, y se puede aplicar una interface funcional y esta
+ * a su vez ser recorrida por multiples filters
+ *
+ *
  */
 public class FilteringStuff {
 
@@ -56,8 +56,7 @@ class Movie {
     Movie(String name, Genre genre) {
         this.name = name;
         this.genre = genre;
-    }     
+    }
     //accessors not shown 
-    
-    
+
 }

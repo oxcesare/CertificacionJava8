@@ -10,19 +10,20 @@ import java.util.*;
 /**
  *
  * @author consultor006
- * 
+ *
  * Java como tal incorpora una manera de iterar una lista:
- * 
- *  forEach(Consumer<? super T> action) in java.lang.Iterable 
- * 
- * Un Stream tambien tiene su propia manera de iterar 
- * 
- * java.util.Stream interface also contains the same void forEach(Consumer<? super T> action) 
- * Esta forma de iterar es una operacion terminal 
- * 
+ *
+ * forEach(Consumer<? super T> action) in java.lang.Iterable
+ *
+ * Un Stream tambien tiene su propia manera de iterar
+ *
+ * java.util.Stream interface also contains the same void
+ * forEach(Consumer<? super T> action) Esta forma de iterar es una operacion
+ * terminal
+ *
  */
-
 public class Test2 {
+
     public static void main(String[] args) {
         List<StringBuilder> messages = Arrays.asList(new StringBuilder(), new StringBuilder());
         messages.stream().forEach(s -> s.append("helloworld"));

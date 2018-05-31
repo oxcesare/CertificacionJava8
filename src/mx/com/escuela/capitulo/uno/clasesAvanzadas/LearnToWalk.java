@@ -11,8 +11,8 @@ package mx.com.escuela.capitulo.uno.clasesAvanzadas;
  *
  * Cuando una clase extiende de otra y se sobrescribenm los métodos el que
  * sobreEscribe no puede ser static
- * 
- * Nota: descomentar el metodo void toodle de la clase BabyRhino 
+ *
+ * Nota: descomentar el metodo void toodle de la clase BabyRhino
  *
  *
  */
@@ -26,7 +26,6 @@ public class LearnToWalk {
 
         //@Override
         //public void toodle() {
-
         //}
     }
 }
