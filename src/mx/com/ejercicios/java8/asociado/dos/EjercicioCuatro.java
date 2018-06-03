@@ -23,12 +23,11 @@ public  class EjercicioCuatro {
     //public abstract void methodRun(); 
     public void methodHide(){
         
-    }
-    
+    }    
 }
 
 abstract class TestAbstract{
     abstract void methodRun();
     abstract void methodHide();
-    abstract void methodSeek();
+    abstract void methodSeek();    
 }
