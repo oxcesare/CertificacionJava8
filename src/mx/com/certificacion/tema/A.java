@@ -37,12 +37,8 @@ class B{
     
     public void mensaje(){
         System.out.println("Mensaje");
-    }
-    
-    
-   
+    }    
 }
-
 
 abstract class C1 {
   public C1(){

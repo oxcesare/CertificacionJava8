@@ -49,6 +49,9 @@ public class TestClass {
        //process(fnames, TestClass::size); //Compila sin problemas 
        //process(fnames, Carnivore::calories); //Compila con error, mala invocacion a los métodos de la interface
        //process(fnames, Tiger::eat); aparentemente esta bien pero debe de ser la invocacion mediante el objeto no con el nombre de la clase 
+       
+       
+      
     
     }
 }
