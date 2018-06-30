@@ -38,6 +38,10 @@ public class Test2 {
 
         List<String> strList = Arrays.asList("a", "aa", "aaa");
         Function<String, Integer> f = x -> x.length();
+        
+        System.out.println("*******F********"+f.toString());
+        
+        
         Consumer<Integer> c = x -> System.out.print("Len:" + x + " ");
         strList.stream().map(f).forEach(c);
 

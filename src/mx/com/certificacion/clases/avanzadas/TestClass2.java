@@ -32,6 +32,6 @@ class Outer {
     }
 
     Inner getInner() {
-        return new Inner();
+        return new Inner(); //Retonar un objeto Inner de la clase Interna 
     }
 }
