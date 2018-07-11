@@ -8,6 +8,10 @@ package mx.com.ejercicios.java8.asociado.cinco;
 /**
  *
  * @author consultor006
+ * 
+ * En esta clase se tiene representado el uso de bloques estaticos, recordar
+ * que estos se ejecutan antes que cualquier otra invocación. 
+ * 
  */
 public class Test22 extends SuperTest22 {
 

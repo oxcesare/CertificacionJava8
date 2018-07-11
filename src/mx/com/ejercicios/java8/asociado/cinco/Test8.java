@@ -8,6 +8,11 @@ package mx.com.ejercicios.java8.asociado.cinco;
 /**
  *
  * @author consultor006
+ * 
+ * En esta clase se declaran 2 atributos size y shape 
+ * entonces cambiand de valor dentro del constructor, recordar
+ * que el constructor de una clase es lo primero que se ejecuta 
+ * a exception de cuando existe un bloque estatico. 
  */
 public class Test8 {
 
@@ -15,12 +20,12 @@ public class Test8 {
     String shape = "none";
 
     Test8(){
-      
+        size = 10;
+        shape = "round";  
     }
     
     public void Test() {
-        size = 10;
-        shape = "round";  
+       
     }
     
     public int getSize(){

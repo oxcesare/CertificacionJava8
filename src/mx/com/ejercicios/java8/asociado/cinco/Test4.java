@@ -13,10 +13,19 @@ import java.util.*;
  * Para este ejercicio se imprime "Caught Outer Exception", debido 
  * a que el bloque try-catch interior se esta creando una nueva instancia
  * de un ArrayIndexOutOfBoundsException por lo que se sale al bloque principal
- * y lo cacha el catch del bloque try principal.
+ * al no ser el tipo de exception que se tiene que lanzar, es decir el catch interno
+ * lanza un IndexOutOfBoundsException y cacha un ArrayIndexOutOfBoundsException y 
+ * eso esta mal por lo que se sale al bloque externo Catch.
+ * 
+ *
  * 
  * Si se obtuviera el tipo de exception que lanzo en el bloque try interno
  * ahí se quedaría la ejeccucción de este código.
+ * 
+ * Si no tuviera un try externo y no se invoca la exception que debe de ser
+ * entonces manda un error en tiempo de ejecuccion.
+ * 
+ * 
  */
 public class Test4 {
 
@@ -32,7 +41,7 @@ public class Test4 {
                 System.out.println("Caught Inner Exception");
             }
         } catch (Exception e) {
-            System.out.println("Caught Outer Exception");
+           System.out.println("Caught Outer Exception");
         }
     }
 

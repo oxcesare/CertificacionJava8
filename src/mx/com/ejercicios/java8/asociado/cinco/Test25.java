@@ -8,6 +8,11 @@ package mx.com.ejercicios.java8.asociado.cinco;
 /**
  *
  * @author consultor006
+ * 
+ * En esta clase se hace uso de exception, cuando el metodo run
+ * es invocado y lanza una exception al estar invocando una instancia
+ * de la clase ExceptionR y no tener mensaje entonces solo se ejecuta el bloque finally
+ * y el mensaje catch de la invocacion propia del método run(). 
  */
 public class Test25 {
      public static void main(String[] args) {
@@ -28,7 +33,6 @@ public class Test25 {
    }    
     
 }
-
 
 class ExceptionR extends Exception {
     

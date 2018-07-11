@@ -11,6 +11,9 @@ package mx.com.ejercicios.java8.asociado.cinco;
  * Se estan comparando dos objetos string, no el contenido
  * por lo tanto no son iguales e imprime la longitud de la cadena del else.
  * 
+ * Recordar que == es para objetos y Equals es para contenidos. 
+ * 
+ * 
  * En la segunda validacion el metodo reverse no existe para String
  * solo para StringBuilder
  */

@@ -12,11 +12,16 @@ import java.util.ArrayList;
  * @author consultor006
  *
  * En la clase Test27 se ejecuta el bloque catch debido a que al intentar
- * acceder al método get del arrayList este manda un erro porque no hay nada en
+ * acceder al método get del arrayList este manda un error porque no hay nada en
  * esa posicion.
  *
  * Si agregamos un elemento a la lista entonces ya no mandara el error
  * comentado.
+ * 
+ * En esta clase se imprimen los valores de 
+ * RuntimeException is catchable
+ * Was it caught?
+ * 
  */
 public class Test27 {
 

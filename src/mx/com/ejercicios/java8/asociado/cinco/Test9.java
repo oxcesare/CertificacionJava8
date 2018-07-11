@@ -14,6 +14,11 @@ package mx.com.ejercicios.java8.asociado.cinco;
  * Esta clase imprime el valor de "null"  
  * Es correcto hacer un cast  null a integer
  * 
+ * Todos las clases que sean del tipo Integer,Number,
+ * etc se puede castear a Null ya que son objetos. 
+ * 
+ * En teoria todo objeto puede ser null. 
+ * 
  */
 
 

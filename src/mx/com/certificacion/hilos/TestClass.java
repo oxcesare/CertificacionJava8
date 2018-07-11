@@ -10,7 +10,8 @@ package mx.com.certificacion.hilos;
  * @author consultor006
  * 
  * Si tienes una clase que extiende de una 
- * clase que extiende de thread y sobreescriben el método run al momento de crear una instancia de la clase hija en esta se ejecutará el método run de la clase hija. 
+ * clase que extiende de thread y sobreescriben el método run al momento de crear 
+ * una instancia de la clase hija en esta se ejecutará el método run de la clase hija. 
  */
 class Threader extends Thread {
 

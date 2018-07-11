@@ -13,8 +13,6 @@ public class Telcel {
     
     public Region regionales(){
         System.out.println("Regionales");
-        return null;
-                
-    }
-    
+        return null;                
+    }    
 }

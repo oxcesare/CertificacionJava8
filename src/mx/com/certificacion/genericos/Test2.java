@@ -20,15 +20,12 @@ public class Test2 {
         map.put(1, 10);
         map.put(2, 20);
         map.put(3, null);
-        
-        
+                
         map.merge(3,3,(a,b)->a+b);
         
         System.out.println(map.merge(1,3,(a,b)->a+b));
-        
-        
-        System.out.println(map);
-        
+                
+        System.out.println(map);        
     }
     
 }

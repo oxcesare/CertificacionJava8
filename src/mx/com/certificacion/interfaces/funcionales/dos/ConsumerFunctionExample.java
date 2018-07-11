@@ -9,6 +9,14 @@ package mx.com.certificacion.interfaces.funcionales.dos;
 /**
  *
  * @author consultor006
+ * Esta clase crea un objeto de la interface funcional Consumer 
+ * esta tiene la funcionalidad mediante expresiones lambda de imprimir elementos.
+ * 
+ * La interface funcional tiene un metodo llamado accept que recibe un  generico
+ * como argumento.
+ * 
+ * 
+ * 
  */
 
 import java.util.ArrayList;
