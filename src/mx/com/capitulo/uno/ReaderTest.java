@@ -5,6 +5,12 @@
  */
 package mx.com.capitulo.uno;
 
+import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.function.Supplier;
+
 /**
  *
  * @author consultor006
@@ -39,5 +45,9 @@ public class ReaderTest {
     public static void main(String[] args) {
         MediaReader mr = new MediaReader();
         mr.read();
+        Date d = new Date ();
+        Supplier s1;      
+        
+        Map<String, List<Double>> groupedValues = new HashMap<>();         
     }
 }
