@@ -18,7 +18,11 @@ public class Test {
         IntStream is1 = IntStream.range(1, 3);
         IntStream is2 = IntStream.rangeClosed(1, 3);
         IntStream is3 = IntStream.concat(is1, is2);
-        Object val = is3.boxed().collect(Collectors.groupingBy(k -> k)).get(3);
+        
+        /**
+         * 
+         */
+        Object val = is3.boxed().collect(Collectors.groupingBy(k -> k)).get(2);
         System.out.println(val);
     }
 }

@@ -24,7 +24,8 @@ public class Ejercicio12 extends EjercicioInterno12 {
     
     public static void main(String[] args) {
          EjercicioInterno12 q = new Ejercicio12();
-         methodA1();
+         q.methodA1(); // Si se invoca con objeto entonces corresponde al método de la Padre
+         methodA1(); //Si se invoca staticamente entonces corresponde al método de la clase Hija 
          q.methodA3();
     }
     static void methodA1(){

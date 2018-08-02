@@ -8,6 +8,7 @@ package mx.com.examen.lambdas;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;
+import java.util.function.UnaryOperator;
 
 /**
  *
@@ -15,6 +16,11 @@ import java.util.function.Predicate;
  *
  * Un Stream guarda una lista, y se puede aplicar una interface funcional y esta
  * a su vez ser recorrida por multiples filters
+ * 
+ * El metodo filter se debe de aplicar de manera individual es decir aplicar filter 
+ * y su respectivo Predicate despues otro filter y su respectivo predicate.
+ * 
+ * La interface funcional Predicate recibe un generico 
  *
  *
  */
@@ -22,9 +28,9 @@ public class FilteringStuff {
 
     public static void main(String[] args) {
         List<Movie> movies = Arrays.asList(new Movie("On the Waterfront", Movie.Genre.DRAMA), new Movie("Psycho", Movie.Genre.THRILLER), new Movie("Oldboy", Movie.Genre.THRILLER), new Movie("Shining", Movie.Genre.HORROR));
-        Predicate<Movie> horror = mov -> mov.getGenre() == Movie.Genre.THRILLER;
-        Predicate<Movie> name = mov -> mov.getName().startsWith("O");
-        //1 INSERT CODE HERE   
+        Predicate<Movie> horror = mov -> mov.getGenre() == Movie.Genre.HORROR;
+        Predicate<Movie> name = mov -> mov.getName().startsWith("S");
+       //1 INSERT CODE HERE   
         movies.stream().filter(horror).filter(name).forEach(mov -> System.out.println(mov.getName()));
     }
 }

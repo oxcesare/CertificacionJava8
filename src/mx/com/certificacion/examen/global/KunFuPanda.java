@@ -13,12 +13,12 @@ public class KunFuPanda {
     public static void main(String[] args) {
         Integer x=400;
         Integer y=x;
-        //x++;
+        x++;
         
         StringBuilder sb1 = new StringBuilder("123");
-        StringBuilder sb2 = new StringBuilder("123");
-        //StringBuilder sb2=sb1;
-        //sb1.append("5");
+        
+        StringBuilder sb2=sb1;
+        sb1.append("5");
         
         System.out.println(x==y);
         System.out.println(sb1==sb2);

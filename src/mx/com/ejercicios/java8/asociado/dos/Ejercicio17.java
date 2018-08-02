@@ -8,6 +8,8 @@ package mx.com.ejercicios.java8.asociado.dos;
 /**
  *
  * @author consultor006
+ * 
+ * Arreglos tridimensionales. 
  */
 public class Ejercicio17 {
     public static void main(String[] args) {

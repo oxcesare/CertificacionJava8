@@ -3,21 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mx.com.certificacion.interfaces.funcionales.dos;
+package mx.com.asociado.general;
 
-import java.util.function.BiFunction;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  *
  * @author consultor006
  */
-public class Main6 {
+public class Incrementa {
 
     public static void main(String[] args) {
-        BiFunction<String, String, String> bi = (x, y) -> {
-            return x + y;   
-        };
-
-        System.out.println(bi.apply("java2s.com", " tutorial"));
+        AtomicInteger ai = new AtomicInteger(5);         
+        int x = ai.addAndGet(1);
+        System.out.println(x);
     }
+
 }

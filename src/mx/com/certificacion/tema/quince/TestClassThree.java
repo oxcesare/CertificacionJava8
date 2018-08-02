@@ -12,7 +12,7 @@ package mx.com.certificacion.tema.quince;
 class MyRunnable implements Runnable {
 
     MyRunnable(String name) {
-        new Thread(this, name).start();
+        new Thread(this, name).start(); //inicializa un objeto Thread, en el constructor de la clase. 
     }
 
     public void run() {

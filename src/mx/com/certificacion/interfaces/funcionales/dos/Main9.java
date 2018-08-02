@@ -5,19 +5,17 @@
  */
 package mx.com.certificacion.interfaces.funcionales.dos;
 
-import java.util.function.BiFunction;
-
 /**
  *
  * @author consultor006
  */
-public class Main6 {
+public class Main9 {
 
     public static void main(String[] args) {
-        BiFunction<String, String, String> bi = (x, y) -> {
-            return x + y;   
-        };
-
-        System.out.println(bi.apply("java2s.com", " tutorial"));
+        for (int i = 0; i < 2; i++) {
+            for (int j = 0; j < 4; j++) {
+                System.out.println("Telcel" + " " + j);
+            }
+        }
     }
 }

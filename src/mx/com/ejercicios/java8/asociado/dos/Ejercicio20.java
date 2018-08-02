@@ -33,3 +33,20 @@ public class Ejercicio20 {
                 
     }
 }
+
+class Clase implements implementaciones{
+
+    @Override
+    public void m() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    
+}
+
+
+interface implementaciones {   
+   public void m();    
+}
+
+
+

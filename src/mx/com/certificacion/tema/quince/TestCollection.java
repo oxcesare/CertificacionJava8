@@ -42,11 +42,33 @@ public class TestCollection {
             System.out.println(student);
         }
 
+        
+        /**
+         * Nueva version utilizando 
+         * 
+         * Se crea una lista llamada listaBuenaEstudiantes, la lista a recorrer
+         * se guarda en un stream, esto siempre se hace para cualquier clase 
+         * de tipo de datos que se quiera almacenar, despues se utiliza una operacion intermedia
+         * filter en la cual se establece mediante expresiones lambda la condicion al recorrer
+         * esa lista, y finalmente se guarda en una operacion terminal denominada collect que recibe
+         * como parametro un Collectors.toList
+         *
+         */
+        
         // find students whose score >= 70
+       
         List<Student> listGoodStudents = listStudents.stream()
                 .filter(s -> s.getScore() >= 70)
                 .collect(Collectors.toList());
-
+               
+        /**
+         * aqui se puede implementar todavia un forEach el cual es una operacion terminal
+           Para imprimir la logica correspondiente. 
+           
+           Vesión con la logica correspondiente usando forEach
+         */
+        
+         
     }
 
     /**
