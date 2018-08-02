@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mx.com.certificacion.tema.cinco;
+package mx.com.certificacion.interfaces.funcionales.dos;
 
 /**
  *
  * @author cesaralducinruiz
  */
-public class ChronoUnitExample {
+public class Consumer {
     
 }
