@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mx.com.certificacion.tema.cinco;
+package mx.com.certificacion.tema.dates;
 
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
