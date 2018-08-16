@@ -17,7 +17,6 @@ public class Main6 {
         BiFunction<String, String, String> bi = (x, y) -> {
             return x + y;   
         };
-
         System.out.println(bi.apply("java2s.com", " tutorial"));
     }
 }

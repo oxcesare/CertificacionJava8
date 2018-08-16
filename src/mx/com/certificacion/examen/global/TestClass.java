@@ -28,8 +28,10 @@ public class TestClass implements T1, T2{
     @Override
     public void m1() {
         System.out.println("Funcionalidad");
+        //System.out.println("VALUE"+""+VALUE);
+               
     }
-    
+     
     public static void main(String[] args) {
         TestClass test = new TestClass();
         test.m1();

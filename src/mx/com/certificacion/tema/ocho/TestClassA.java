@@ -3,18 +3,24 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mx.com.certificacion.interfaces.funcionales.dos;
-
-import java.util.function.UnaryOperator;
+package mx.com.certificacion.tema.ocho;
 
 /**
  *
  * @author consultor006
  */
-public class Main7 {
+public class TestClassA {
+
+    static int someInt = 10;
+
+    public static int changeIt(int a) {
+        a = 20;
+
+        return a;
+    }
 
     public static void main(String[] args) {
-        UnaryOperator<String> i = (x) -> x.toUpperCase();
-        System.out.println(i.apply("java2s.com"));
+        changeIt(someInt);
+        System.out.println(someInt);
     }
 }

@@ -9,6 +9,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Date;
+import java.util.Map;
+import java.util.TreeMap;
+
+import java.util.function.*;
 
 /**
  *
@@ -57,6 +61,12 @@ public class SortTest {
         String[] sa = {"charlie", "bob", "andy", "dave"};
         Collections.sort(Arrays.asList(sa), null);
         System.out.println(sa[0]);
+        
+        Predicate<String> predi;
+        BiPredicate<String,Double> BiPredi;
+        
+        Map<Object, Object> m = new TreeMap<Object, Object>();
                      
+        
     }
 }
