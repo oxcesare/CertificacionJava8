@@ -5,16 +5,14 @@
  */
 package mx.com.ejercicios.hanRank;
 
-import java.io.*;
 import java.util.Scanner;
 
 /**
  *
  * @author consultor006
  */
-public class SolucionDos {
+public class SolucionDosDinamica {
 
-    
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -214,6 +212,5 @@ public class SolucionDos {
 
         System.out.println("Numero Mayor Final" + " " + numeromayor);
 
-    } 
-    
+    }
 }

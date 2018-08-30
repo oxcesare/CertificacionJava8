@@ -6,10 +6,7 @@
 package mx.com.ejercicios.hanRank;
 
 import java.io.*;
-import java.math.*;
-import java.text.*;
 import java.util.*;
-import java.util.regex.*;
 
 /**
  *
@@ -27,7 +24,7 @@ public class BetweenTwoSets {
 
         //Arreglo que almacena los divisibles entre cero 
         int[] dUno = new int[a.length];
-        int[] dDos = new int[b.length+1];
+        int[] dDos = new int[b.length + 1];
         boolean divi = false;
         boolean diviB = false;
 
@@ -42,16 +39,19 @@ public class BetweenTwoSets {
 
         for (int i = 0; i < a.length; i++) {
             aux2 = a[i];
+            System.out.println("Elementos a" + " " + a[i]);
             for (int j = 0; j < a.length; j++) {
                 if (aux2 % a[j] == 0) {
                     divi = true;
                 } else {
                     divi = false;
-                    break;
+
                 }
             }
             if (divi) {
                 dUno[i] = aux2;
+                System.out.println("Los que meti que son divisibles en el arreglo"
+                        + "dUno" + " " + dUno[i]);
             } else {
             }
 
@@ -60,34 +60,35 @@ public class BetweenTwoSets {
              * y los elementos del conjunto A, ahora hay que buscar dentro del
              * conjunto B y contar los que sean
              */
+            System.out.println("Longitud de dUno" + " " + dUno.length);
+
             for (int c = 0; c < dUno.length; c++) {
                 if (dUno[c] > 0) {
-                    System.out.println("Valores que salen del Subconjunto A" + " " + dUno[c]);
+                    System.out.println("Divisibles iniciales" + " " + dUno[c]);
                 }
             }
 
-            System.out.println("Longitud de dUno [c]" + dUno.length);
-
         }
 
-        System.out.println("Longitud del arreglo b " + " " + b.length);
-
-        int contador=0;
+        int contador = 0;
         for (int t = 0; t < dUno.length; t++) {
             if (dUno[t] > 0) {
                 bux2 = dUno[t];
                 for (int i : b) {
-                    System.out.println("Primer elemento" + "" + i);
                     if (i % bux2 == 0) {
-                        diviB = true;
                         contador++;
+                        diviB = true;                        
                     } else {
                         diviB = false;
                         break;
                     }
                 }
-                if (diviB) {
-                    dDos[t] = bux2;                    
+                if (diviB) {                                                 
+                    dDos[t] = bux2;
+                    System.out.println("Elementos que meto al arreglo final" +
+                            " " + bux2);
+                    System.out.println("Elementos que meto al arreglo final" +
+                            " " + dDos[t]);
                 } else {
                 }
             }
@@ -96,23 +97,27 @@ public class BetweenTwoSets {
         /**
          * Imprimo el numero de elementos entre los que son divibles
          */
-        
         /**
          * Imprimo los elementos
          */
         for (int cc = 0; cc < dDos.length; cc++) {
             if (dDos[cc] != 0) {
-                System.out.println("Valores entre los que son divisibles"
-                        + " " + dDos[cc] + " Contador " + contador );
+                System.out.println("Contador Final"
+                        + " " + contador);
             }
         }
-        return 1;
+
+        if (contador == 1) {
+            System.out.println("Entro a sumar al contador");
+            //contador += 1;
+        }
+        return contador;
     }
 
     private static final Scanner scan = new Scanner(System.in);
 
     public static void main(String[] args) throws IOException {
-        // BufferedWriter bw = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+        //   BufferedWriter bw = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
         String[] nm = scan.nextLine().split(" ");
 

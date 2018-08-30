@@ -10,28 +10,26 @@ import java.util.*;
 /**
  *
  * @author consultor006
- * 
+ *
  * En esta clase se demuestra que lso mapas si aceptan valores duplicados
- * recordar que los que no lo hacen son los SET. 
+ * recordar que los que no lo hacen son los SET.
  */
 public class MyTrees {
-    
+
     String name;
 
     public MyTrees(String n) {
-        name =n;
+        name = n;
     }
-    
-    
+
     public static void main(String[] args) {
         Map<MyTrees, String> trees = new LinkedHashMap<MyTrees, String>();
-        trees.put(new MyTrees(("1")),"XL");
-        trees.put(new MyTrees(("2")),"XL");
-        trees.put(new MyTrees(("1")),"XL");
-        trees.put(new MyTrees(("2")),"XL");
-                
+        trees.put(new MyTrees(("1")), "XL");
+        trees.put(new MyTrees(("2")), "XL");
+        trees.put(new MyTrees(("1")), "XL");
+        trees.put(new MyTrees(("2")), "XL");
+
         System.out.println(trees.size());
     }
-    
-    
+
 }

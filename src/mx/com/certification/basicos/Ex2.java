@@ -23,7 +23,7 @@ public class Ex2 {
         
         //Objetos no mutables
         String x = "Java 7";
-        x.concat("SE");//Este es un nuevo objeto
+        x.concat("SE");//Este es un nuevo objeto, por lo tanto en el siguiente system, no se imprime el valor.
         System.out.println(""+x);
         
         //Objetos mutables

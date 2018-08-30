@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mx.com.ejercicio.clases.avanzadas;
+package mx.com.ejercicios.hanRank;
 
 /**
  *
@@ -11,24 +11,10 @@ package mx.com.ejercicio.clases.avanzadas;
  */
 public class Divisibles {
     public static void main(String[] args) {
-         if (4 % 4 == 0) {
+         if (100 % 1 == 0) {
              System.out.println("Si");
          }else{
              System.out.println("No");
          }
-         
-         if (4 % 2 == 0) {
-             System.out.println("Si");
-         }else{
-             System.out.println("No");
-         }
-         
-         if (4 % 8 == 0) {
-             System.out.println("Si");
-         }else{
-             System.out.println("No");
-         }
-         
-         
     }
 }

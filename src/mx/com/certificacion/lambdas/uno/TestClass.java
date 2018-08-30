@@ -12,6 +12,9 @@ import static javax.swing.event.DocumentEvent.EventType.INSERT;
 /**
  *
  * @author consultor006
+ * 
+ * Clase que demuestra el uso correcto de invocacion a la implementación
+ * de métodos de una interface
  */
 interface Carnivore {
 

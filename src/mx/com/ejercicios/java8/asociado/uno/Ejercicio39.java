@@ -17,9 +17,15 @@ public class Ejercicio39 {
         Ejercicio39 q = new Ejercicio39();
         StringBuilder sb = new StringBuilder("This");
         q.changeThis(sb);
-        System.out.println(sb);                
+        System.out.println(sb);                 
     }
    
+    /**
+     * 
+     * @param str 
+     * 
+     * Se esta regreando el mismo objeto 
+     */
     public void changeThis(StringBuilder str){
         System.out.println(str+" ");
         str.delete(0, 4);
