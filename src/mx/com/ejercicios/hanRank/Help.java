@@ -5,7 +5,7 @@
  */
 package mx.com.ejercicios.hanRank;
 
-import java.util.*;
+import java.util.*; 
 
 /**
  *
@@ -53,9 +53,7 @@ public class Help {
 
             int k;
 
-            for (k = j; k > 0 && arr2[k - 1] > newElement; k--) {
-                // System.out.println("k"+""+k);
-                //System.out.println("newElement"+""+newElement);                
+            for (k = j; k > 0 && arr2[k - 1] > 0; k--) {
                 arr2[k] = arr2[k - 1];
 
             }

@@ -23,8 +23,5 @@ public class Test1 {
         System.out.println(d.pollFirst());
         System.out.println(d.poll());
         System.out.println(d.pollLast());
-        
-        
     }
-
 }

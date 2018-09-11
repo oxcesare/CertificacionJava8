@@ -5,22 +5,16 @@
  */
 package mx.com.ejercicios.hanRank;
 
+
+
 /**
  *
  * @author consultor006
  */
-public class Divisibles {
+public class Other {
     public static void main(String[] args) {
-         if (90 % 5 == 0) {
-             System.out.println("Si");
-         }else{
-             System.out.println("No");
-         }
-         
-         int arr[] = new int[2];
-         
-         arr[0] = 5;
-         
-         System.out.println("arr"+arr[0]+2);
+        int a =10000;        
+               int b =1000000000;
     }
+    
 }

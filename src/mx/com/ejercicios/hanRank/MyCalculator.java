@@ -15,7 +15,7 @@ import java.util.logging.Logger;
 public class MyCalculator extends TipoException {
 
     public static void main(String[] args) throws TipoException {
-        power(-3, -15);
+        power(5, -5);
     }
 
     /*
@@ -23,13 +23,16 @@ public class MyCalculator extends TipoException {
      */
     public static void power(int n, int p) throws TipoException {
         try {
-            if (n == -1 | p == -1) {
-                throw new TipoException("n and p should be non-negative");
-            } else {
-                System.out.println(Math.pow(n, p));
+            if (n < 0 | p < 0) {                
+                 throw new TipoException("n and p should be non-negative");
+            } else if(n==0 | p==0) {
+                throw new TipoException("n and p should not be zero");
+            }else{                
+                double v = Math.pow(n, p);
+                System.out.println("valores"+" " + v);
             }
         } catch (TipoException e) {
-            throw new TipoException("n and p should be non-negative");
+            System.out.println(""+e.getMessage());
         }
     }
 
