@@ -36,7 +36,6 @@ public class Listas {
         for (String listaFinal : listaNumeros) {
             System.out.println(listaFinal);
         }
-
     }
 
     public static List<String> obtenerListaNumeros(String pathFile) {

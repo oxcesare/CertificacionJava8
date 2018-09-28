@@ -5,6 +5,8 @@
  */
 package mx.com.certificacion.tema.ocho;
 
+import java.util.Comparator;
+
 /**
  *
  * @author consultor006
@@ -22,15 +24,31 @@ interface Otra {
     public abstract void unicoMetodo();
 }
 
-public class Extendiendo implements Unica, Comparable<Object>{
+public class Extendiendo implements Unica, Comparable<Object>, Comparator<Object> {
 
     @Override
     public void unicoMetodo() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
+    /**
+     *
+     * @param o
+     * @return Comparable
+     */
     @Override
     public int compareTo(Object o) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    /**
+     *
+     * @param o1
+     * @param o2 Comparator
+     * @return
+     */
+    @Override
+    public int compare(Object o1, Object o2) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
