@@ -8,6 +8,11 @@ package mx.com.ejercicios.java8.asociado.cuatro;
 /**
  *
  * @author consultor006
+ * 
+ * Clase que muestra el ejemplo de asignaciones booleanas
+ * dentro de un if(a=c !=b)
+ * 
+ * Recorda que un valor booleano por default es true
  */
 public class Test24 {
     
