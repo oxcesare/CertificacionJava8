@@ -14,7 +14,6 @@ public class Main2 {
             System.out.println(x);
             System.out.println(y);
         };
-
         biConsumer.accept("java2s.com", " tutorials");
     }
 }

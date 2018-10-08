@@ -19,7 +19,7 @@ public class TestClass {
     }
 
     public static void main(String[] args) {
-        Doer d = (a, b)->b.substring(0, a);
+        Doer d = (a, b)->b.substring(0, a); // logica implementado con expresion lambda
         System.out.println(d.doIt(2, "12345"));
         
         //Opcion 2

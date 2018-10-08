@@ -10,8 +10,15 @@ import java.io.FileReader;
 
 /**
  *
- * @author consultor006 Regresa un error en tiempo de ejecucción La exception
+ * @author consultor006 
+ * 
+ * Descripcion de la clase:
+ * 
+ * Regresa un error en tiempo de ejecucción La exception
  * NoSuchFileException no es una subclase de la clase Exception
+ * 
+ * Esta Exception NoSuchFileException aplica para cuando no se encuentra el archivo
+ * disponible. 
  *
  */
 public class IOTest {

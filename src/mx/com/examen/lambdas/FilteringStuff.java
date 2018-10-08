@@ -28,6 +28,10 @@ public class FilteringStuff {
 
     public static void main(String[] args) {
         List<Movie> movies = Arrays.asList(new Movie("On the Waterfront", Movie.Genre.DRAMA), new Movie("Psycho", Movie.Genre.THRILLER), new Movie("Oldboy", Movie.Genre.THRILLER), new Movie("Shining", Movie.Genre.HORROR));
+       /**
+        * Como mi interface funcional esta recibiendo 
+        * un objeto de tipo Movie y este tiene un enum puede acceder a los atributos
+        */ 
         Predicate<Movie> horror = mov -> mov.getGenre() == Movie.Genre.HORROR;
         Predicate<Movie> name = mov -> mov.getName().startsWith("S");
        //1 INSERT CODE HERE   
