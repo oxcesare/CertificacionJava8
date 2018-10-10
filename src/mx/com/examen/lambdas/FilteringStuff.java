@@ -16,25 +16,36 @@ import java.util.function.UnaryOperator;
  *
  * Un Stream guarda una lista, y se puede aplicar una interface funcional y esta
  * a su vez ser recorrida por multiples filters
- * 
- * El metodo filter se debe de aplicar de manera individual es decir aplicar filter 
- * y su respectivo Predicate despues otro filter y su respectivo predicate.
- * 
- * La interface funcional Predicate recibe un generico 
+ *
+ * El metodo filter se debe de aplicar de manera individual es decir aplicar
+ * filter y su respectivo Predicate despues otro filter y su respectivo
+ * predicate.
+ *
+ * La interface funcional Predicate recibe un generico
  *
  *
  */
 public class FilteringStuff {
 
+    private String cadena;
+
+    public String getCadena() {
+        return cadena;
+    }
+
+    public void setCadena(String cadena) {
+        this.cadena = cadena;
+    }
+
     public static void main(String[] args) {
         List<Movie> movies = Arrays.asList(new Movie("On the Waterfront", Movie.Genre.DRAMA), new Movie("Psycho", Movie.Genre.THRILLER), new Movie("Oldboy", Movie.Genre.THRILLER), new Movie("Shining", Movie.Genre.HORROR));
-       /**
-        * Como mi interface funcional esta recibiendo 
-        * un objeto de tipo Movie y este tiene un enum puede acceder a los atributos
-        */ 
+        /**
+         * Como mi interface funcional esta recibiendo un objeto de tipo Movie y
+         * este tiene un enum puede acceder a los atributos
+         */
         Predicate<Movie> horror = mov -> mov.getGenre() == Movie.Genre.HORROR;
         Predicate<Movie> name = mov -> mov.getName().startsWith("S");
-       //1 INSERT CODE HERE   
+        //1 INSERT CODE HERE   
         movies.stream().filter(horror).filter(name).forEach(mov -> System.out.println(mov.getName()));
     }
 }

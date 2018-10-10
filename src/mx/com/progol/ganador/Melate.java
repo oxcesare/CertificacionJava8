@@ -29,7 +29,14 @@ package mx.com.progol.ganador;
  *
  *
  * Ganar - to Win
+ * 
+ * 22 27 33 37 43 52
+ * 22  
+ * 
  */
+
+
+
 public class Melate {
 
     public static void main(String[] args) {

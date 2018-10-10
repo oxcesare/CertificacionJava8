@@ -8,27 +8,44 @@ package mx.com.certificacion.IO;
 /**
  *
  * @author consultor006
+ *
+ * Una clase abstracta puede tener metodos abstractos y no abstractos.
+ *
+ *
  */
+abstract class B {
 
-abstract class B{
-    
     public abstract void c();
+
     public abstract void d();
-    public void e(){
+
+    public void e() {
         System.out.println("Método no abstracto");
     }
-    
+
 }
-public class A extends B{
+
+public class A extends B {
 
     @Override
     public void c() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("mx.com.certificacion.IO.A.c()");
     }
 
     @Override
     public void d() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("mx.com.certificacion.IO.A.d()");
     }
-    
+
+    public void e() {
+        System.out.println("Se puede sobreEscribir");
+    }
+
+    public static void main(String[] args) {
+        A a = new A();
+        a.c();
+        a.d();
+        a.e();
+    }
+
 }

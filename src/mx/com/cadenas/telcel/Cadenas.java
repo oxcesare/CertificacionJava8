@@ -13,6 +13,44 @@ public class Cadenas {
 
     public static void main(String[] args) {
 
+        String cadInburo ="<SolicitudProvider><TipoSolicitud>repoAU</TipoSolicitud> <Solicitud> <Header> <HoraEntrada>20160416182044</HoraEntrada> <Ip>192.9.198.108</Ip> <Usuario>SISACT R9</Usuario>\n" +
+"            <IdSistema>SISACT</IdSistema> <Folio>CEX16041618204499744</Folio> <Historico>180</Historico> </Header> <Segmentos> <Autenticacion> <lis_tipo_reporte>RCN</lis_tipo_reporte>\n" +
+"            <lis_tipo_salida>1</lis_tipo_salida><lis_referencia_operador>NUM REFERNCIA OPERADOR R9</lis_referencia_operador> <lis_cuenta_con_tc>V</lis_cuenta_con_tc>\n" +
+"            <lis_ultimos_digitos>4118</lis_ultimos_digitos> <lis_cred_hipoteca_banco>F</lis_cred_hipoteca_banco> <lis_credito_automotriz>F</lis_credito_automotriz> </Autenticacion>\n" +
+"            <EncabezadoINTL> <lis_referencia_operador>NUM REFERNCIA OPERADOR R9</lis_referencia_operador> <ProductoRequerido>001</ProductoRequerido> <ls_usr>REPOBCR09</ls_usr> \n" +
+"            <ls_pass>XXXXXXXX</ls_pass> <adm_intl_tipo_cta>I</adm_intl_tipo_cta> <adm_intl_tipo_contrato>CC</adm_intl_tipo_contrato> <adm_intl_unidadmonetaria>MX</adm_intl_unidadmonetaria>\n" +
+"            <adm_intl_imp_contrato>000000000</adm_intl_imp_contrato> <adm_intl_idioma>SP</adm_intl_idioma> </EncabezadoINTL> <Nombre> <lv_ape_pat>CASAS</lv_ape_pat> <lv_ape_mat>RAMOS</lv_ape_mat>\n" +
+"            <lv_prim_nom>JOAQUIN</lv_prim_nom> <lv_seg_nom>ALONSO</lv_seg_nom> <lv_fec_nac>23101995</lv_fec_nac> <lv_rfc>CARJ951023000</lv_rfc> <lis_sexo>M</lis_sexo> </Nombre> <Direccion>\n" +
+"            <lis_direccion1>DE MELESIO MARQUEZ S/N</lis_direccion1> <lis_direccion2>0</lis_direccion2> <lis_colonia_poblacion>SAN ANDRES JALTENCO</lis_colonia_poblacion>\n" +
+"            <lis_delegacion_municipio>JALTENCO</lis_delegacion_municipio> <lis_ciudad>JALTENCO</lis_ciudad> <lis_estado>EM</lis_estado> <lis_cp>55780</lis_cp> </Direccion>\n" +
+"            </Segmentos></Solicitud> </SolicitudProvider>";
+        
+        
+        
+        String cadBuro ="<ProviderData> <TipoSolicitud>idProv</TipoSolicitud>\n" +
+"            <ResponseProvider> <Header>\n" +
+"            <HoraRespuestaSalida>09052018094138</HoraRespuestaSalida>\n" +
+"            <Folio>CEX20180509094192055</Folio> </Header> <Autenticado> <ReporteDeCredito> <EncabezadoResponseINTL> <v_version>11</v_version> \n" +
+"            <lis_referencia_operador>CEX20180509094192055</lis_referencia_operador><v_pais>MX</v_pais> <v_buro>0000</v_buro> <v_cve_otorga>UT98002491</v_cve_otorga>\n" +
+"            <v_cve_retorno_p>1</v_cve_retorno_p><v_cve_retorno_s>0</v_cve_retorno_s> </EncabezadoResponseINTL> <Nombre> <lv_ape_pat>CARRILLO</lv_ape_pat> <lv_ape_mat>RODRIGUEZ</lv_ape_mat>\n" +
+"            <lv_prim_nom>LUIS</lv_prim_nom> <lv_seg_nom>ANGEL</lv_seg_nom> <lv_fec_nac>29041998</lv_fec_nac> <lv_rfc>CARL980429</lv_rfc> <lis_nacionalidad>MX</lis_nacionalidad>\n" +
+"            <lis_estado_civil>D</lis_estado_civil> <lis_sexo>F</lis_sexo> </Nombre> <DireccionesReportadas> <Direccion> <lis_direccion1>CDA RIO BRAVO MZ67</lis_direccion1> \n" +
+"            <lis_colonia_poblacion>EL SALADO</lis_colonia_poblacion> <lis_delegacion_municipio>LA PAZ</lis_delegacion_municipio> <lis_ciudad>LA PAZ</lis_ciudad> <lis_estado>EM</lis_estado>\n" +
+"             <lis_cp>56524</lis_cp> <lis_tipo_domicilio>H</lis_tipo_domicilio><lis_indicador_esp_domicilio>K</lis_indicador_esp_domicilio><FechaDeReporteDeLaDireccion>07082017</FechaDeReporteDeLaDireccion>\n" +
+"            </Direccion> </DireccionesReportadas> <ConsultasReportadas> <ConsultasEfectuadas> <v_consulta>09052018</v_consulta> <v_cve_otorga>UT98002491</v_cve_otorga><v_nom_otorga>TELCEL</v_nom_otorga>\n" +
+"             <v_cve_t_contr>CC</v_cve_t_contr> <v_importe_cont>0</v_importe_cont> <v_cve_respon>I</v_cve_respon> </ConsultasEfectuadas> <ConsultasEfectuadas> <v_consulta>20042018</v_consulta>\n" +
+"            <v_nom_otorga>SIC</v_nom_otorga> <v_cve_t_contr>CL</v_cve_t_contr> <v_importe_cont>0</v_importe_cont><v_cve_respon>I</v_cve_respon> </ConsultasEfectuadas>\n" +
+"             <ConsultasEfectuadas> <v_consulta>07082017</v_consulta> <v_nom_otorga>SIC</v_nom_otorga> <v_cve_t_contr>UK</v_cve_t_contr> <v_importe_cont>0</v_importe_cont> <v_cve_respon>I</v_cve_respon>\n" +
+"            <v_indica_con_n>Y</v_indica_con_n> </ConsultasEfectuadas> </ConsultasReportadas> <ReportesRealizados> <ResumenReporte> <v_ingre_bd>07082017</v_ingre_bd> <v_mop_07>00</v_mop_07>\n" +
+"            <v_mop_06>00</v_mop_06> <v_mop_05>00</v_mop_05> <v_mop_04>00</v_mop_04> <v_mop_03>00</v_mop_03> <v_mop_02>00</v_mop_02> <v_mop_01>00</v_mop_01> <v_mop_00>00</v_mop_00> \n" +
+"            <v_mop_ur>00</v_mop_ur> <v_n_cuenta>0000</v_n_cuenta> <v_n_pago_f>0000</v_n_pago_f> <v_n_cta_ra>0000</v_n_cta_ra> <v_n_cta_cerr>0000</v_n_cta_cerr> <v_n_cta_neg>0000</v_n_cta_neg> \n" +
+"            <v_n_ctas_mop>0000</v_n_ctas_mop> <v_n_cta_disp>00</v_n_cta_disp> <v_n_sol_6_mes>01</v_n_sol_6_mes> <v_u_dirr>N</v_u_dirr> <v_msg_allert>NNNNN</v_msg_allert><v_declara>N</v_declara>\n" +
+"            <v_mop_96>00</v_mop_96> <v_mop_97>00</v_mop_97> <v_mop_99>00</v_mop_99> <v_open_cta_ant>00000000</v_open_cta_ant><v_open_cta_rec>00000000</v_open_cta_rec> <v_n_t_repo>02</v_n_t_repo>\n" +
+"            <v_n_t_repo_rec>20042018</v_n_t_repo_rec><v_n_t_cta_des_cob>00</v_n_t_cta_des_cob><v_open_cc>00000000</v_open_cc> <v_n_sol_cc>00</v_n_sol_cc>\n" +
+"             <v_sol_cc>00000000</v_sol_cc> </ResumenReporte> </ReportesRealizados> <Fin> <v_long>00622</v_long> <v_ctrl_consul>1560584231</v_ctrl_consul>\n" +
+"            <v_chr_fin>0102</v_chr_fin> </Fin> </ReporteDeCredito> </Autenticado> </ResponseProvider> </ProviderData>";
+        
+                
         String repoIccIn = "<reporteBcIccWSBean>\n"
                 + "	<controlData>\n"
                 + "		<messageUUID>BCSERVICES-PF-LOCAL-0001</messageUUID>\n"
