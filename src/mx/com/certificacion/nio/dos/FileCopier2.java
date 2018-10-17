@@ -13,6 +13,9 @@ import java.nio.file.StandardCopyOption;
 /**
  *
  * @author consultor006
+ * 
+ * Cuando se utilizan las opciones StandardCopyOption.COPY_ATTRIBUTES
+ * se hace el copiado de la informacion sin limitacion 
  */
 public class FileCopier2 {
 

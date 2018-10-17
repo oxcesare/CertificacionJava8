@@ -10,11 +10,21 @@ import java.util.stream.Stream;
 /**
  *
  * @author consultor006
+ * 
+ * No confundir Stream con streams 
+ * 
+ * Los primeros se incorporarn en la version Java 8 y los streams 
+ * 
+ * Los Stream de Java 8 es una secuenca se datos, 
+ * 
+ * Stream es una interface que contiene los siguiente metodos: Builder(), empty(), of(Values) 
+ * 
+ * son aquellos que permiten la entrada y salida de flujos de informacion.
  */
 public class Pregunta15 {
 
     public static void main(String[] args) {
-        Stream<Integer> strm1 = Stream.of(2, 3, 5, 7, 11, 13, 17, 19); //1 
+        Stream<Integer> strm1 = Stream. of(2, 3, 5, 7, 11, 13, 17, 19); //1 
         //Stream<Integer> strm2 = strm1.filter(i->{ return i>5 && i<15; });  //2 
         //Se invoca al metodo parallel para que haga los dos filter al mimos tiempo y 
         //regrese un resultado de manera secuencial.

@@ -24,7 +24,7 @@ import java.util.function.Supplier;
  */
 public class Ready {
 
-    private static double getNumber() {
+    public static double getNumber() {
         return .007;
     }
 
@@ -35,9 +35,11 @@ public class Ready {
         double d = s.get();
         System.out.println(d);
     }
-
     
     public static void main(String[] args) {
         math();
+        
+        Ready r = new Ready();
+        r.getNumber();
     }
 }

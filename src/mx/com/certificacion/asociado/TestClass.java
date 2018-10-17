@@ -32,7 +32,6 @@ public class TestClass {
                 x = m;
             }
         }
-
     }
 
     public void m() {

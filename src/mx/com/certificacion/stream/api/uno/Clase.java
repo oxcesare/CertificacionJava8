@@ -8,12 +8,19 @@ package mx.com.certificacion.stream.api.uno;
 /**
  *
  * @author consultor006
+ * 
+ * Dentro de una clase se puede declarar  una clase interna Que tambien
+ * sea public class 
+ *
+ * 
  */
 public abstract class Clase {
 
     public abstract void a();
+    
+    
+    public class X {
+        
+    }
 }
 
-class abstract Extendiendo extends  Clase{
-        
-}

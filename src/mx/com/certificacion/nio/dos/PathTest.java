@@ -20,7 +20,7 @@ import java.util.stream.Stream;
  * @author consultor006
  *
  * En esta clase PathTest se crea un objeto de Pahts, recordemos que Paths forma
- * parte de las nuevas características de NIO
+ * parte de las nuevas características de NIO.2
  *
  * Es la nueva forma de crear objetos File.
  *

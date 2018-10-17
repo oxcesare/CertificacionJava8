@@ -10,8 +10,10 @@ package mx.com.certificacion.IO;
  * @author consultor006
  */
 public class SomeClass {
-        //int a;
-          int a;
+    //int a;
+
+    int a;
+
     public static void main(String args[]) {
         if (args.length == 0) {
             System.out.println("no arguments");
@@ -19,9 +21,9 @@ public class SomeClass {
             System.out.println(args.length + " arguments");
         }
     }
-    
-    public static int m(){
-       
-        return a;
+
+    public static int m() {
+
+        return 1;
     }
 }
