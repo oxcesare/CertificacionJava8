@@ -14,11 +14,11 @@ import java.nio.file.NoSuchFileException;
 /**
  *
  * @author consultor006
- * 
- * Recordar que si utilizamos multiples exceptions en el catchs
- * este debe de ser desde la más generica hasta la más especifica 
- * 
- * Nota: Se coloca un catch opcional 
+ *
+ * Recordar que si utilizamos multiples exceptions en el catchs este debe de ser
+ * desde la más generica hasta la más especifica
+ *
+ * Nota: Se coloca un catch opcional para que de momento la clase no mande error
  */
 public class IOTest {
 
@@ -28,10 +28,10 @@ public class IOTest {
             while ((line = bfr.readLine()) != null) {
                 System.out.println(line);
             }
-        } catch(Exception e ){
-        
-        //catch (NoSuchFileException | IOException | AccessDeniedException e) {
-         //   e.printStackTrace();
+        } catch (Exception e) {
+
+            //catch (NoSuchFileException | IOException | AccessDeniedException e) {
+            //   e.printStackTrace();
         }
     }
 }

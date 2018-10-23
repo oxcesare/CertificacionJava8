@@ -14,7 +14,6 @@ import java.util.Deque;
  * @author consultor006
  */
 public class Test1 {
-
     public static void main(String[] args) {
         Deque<Integer> d = new ArrayDeque<>();
         d.push(1);

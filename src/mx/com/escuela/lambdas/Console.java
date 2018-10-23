@@ -3,15 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mx.com.trywithresources;
+package mx.com.escuela.lambdas;
 
 /**
  *
  * @author consultor006
  */
-public class TestClass {
+public class Console {
 
     public static void main(String[] args) {
-        System.out.println("hello");
+       
+//Console c = System.console(); //1         
+       //String line = c.readLine("Please enter your name:"); //2         
+       //System.out.println("Hello, "+line); //3       
     }
 }

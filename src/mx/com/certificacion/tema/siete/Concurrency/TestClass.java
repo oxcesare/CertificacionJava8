@@ -15,6 +15,7 @@ public class TestClass {
     static StringBuffer sb2 = new StringBuffer();
 
     public static void main(String[] args) {
+        
         new Thread(new Runnable() {
             public void run() {
                 synchronized (sb1) {
@@ -26,6 +27,7 @@ public class TestClass {
                 System.out.println(sb1);
             }
         }).start();
+        
         new Thread(new Runnable() {
             public void run() {
                 synchronized (sb2) {
