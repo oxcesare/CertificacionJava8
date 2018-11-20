@@ -16,6 +16,10 @@ package mx.com.examen.lambdas;
  * Represents a predicate (boolean-valued function) of one argument. 
  * This interface is used when you want to check for some condition
  * 
+ * Si haces una instancia de una interface entonces se debe de implmentar 
+ * el método que este definido en esta.
+ * 
+ * 
  * 
  * 
  */
