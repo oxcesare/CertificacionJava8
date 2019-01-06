@@ -11,7 +11,7 @@ package mx.com.certificacion.tema.quince;
  */
 public class A extends Thread {
     
-    public static void main(String[] args) {
+    public static final void main(String[] args) {
         Thread c = new A();
         c.run(); //metodo de la clase padre
         System.out.println(" " );
