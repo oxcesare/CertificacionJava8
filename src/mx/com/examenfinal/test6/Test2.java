@@ -13,6 +13,8 @@ package mx.com.examenfinal.test6;
  * En esta clase manda un error la variable heigth debido a que por su alcance
  * solo aplica dentro del if (Condicional)
  * 
+ * Se comenta la linea de codigo para no subir con errores al github
+ * 
  */
 public class Test2 {
 
@@ -23,6 +25,6 @@ public class Test2 {
             int height = 55;
             count = count + 1;
         }
-        System.out.print(height + count);
+        //System.out.print(height + count);
     }
 }

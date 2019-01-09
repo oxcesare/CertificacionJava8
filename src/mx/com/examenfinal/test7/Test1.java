@@ -3,22 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mx.com.certificacion.tema.cuatro.Stream;
+package mx.com.examenfinal.test7;
 
 /**
  *
  * @author consultor006
  */
-class Printer<String> {
-    private String t;
-    Printer(String t){
-        this.t = t;
-    }
-}
-
-class Pruebas {
+public class Test1 {
+    
+    
     public static void main(String[] args) {
-        Printer<String> obj = new Printer<>("Cadena");
-        System.out.println(obj.toString());
+        
     }
 }
