@@ -8,6 +8,13 @@ package mx.com.examenfinal.test8;
 /**
  *
  * @author consultor006
+ * 
+ * * Día 8 de Enero 2019
+ * 
+ * Se tiene que hacer un simulador por día 
+ * 
+ * 
+ * 
  */
 public class Principal {    
     public static void main(String[] args) {
