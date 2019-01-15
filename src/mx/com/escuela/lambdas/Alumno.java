@@ -10,19 +10,18 @@ import java.util.ArrayList;
 /**
  *
  * @author consultor006
- * 
- * Una clase Generica  Alumno, con ello podemos construir una lista 
- * generica de una clase o de otra.
- * 
+ *
+ * Una clase Generica Alumno, con ello podemos construir una lista generica de
+ * una clase o de otra.
+ *
  * Una clase Generica Profesor.
- * 
+ *
  */
-
 class Profesor<T> {
-    
+
 }
 
 public class Alumno<T> {
-    
-    private ArrayList<T> lista= new ArrayList<T>();
+
+    private ArrayList<T> lista = new ArrayList<T>();
 }
