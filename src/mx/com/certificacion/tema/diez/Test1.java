@@ -41,7 +41,6 @@ public class Test1 {
     }
     
     public void a (){
-        IntStream  is = IntStream.empty();
-        is.s
+        IntStream  is = IntStream.empty();       
     }
 }

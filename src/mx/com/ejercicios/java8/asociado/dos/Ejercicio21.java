@@ -13,8 +13,8 @@ public class Ejercicio21 {
     public static void main(String[] args) {
         String s="";
         
-        if(s instanceof java.util.Date){
-            
-        }
+//        if(s instanceof java.util.Date){
+//            
+//        }
     }
 }

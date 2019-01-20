@@ -24,13 +24,13 @@ import java.util.function.*;
  */
 public class FindMovie {
 
-    private Function<String> printer; //esta es una variable de instancia 
+    //private Function<String> printer; //esta es una variable de instancia 
 
     protected FindMovie() {
-        printer = s -> {
-            System.out.println(s);
-            return s;
-        };
+//        printer = s -> {
+//            System.out.println(s);
+//            return s;
+//        };
     }
 
     void printMovies(List<String> movies) {

@@ -19,6 +19,6 @@ public class Sun {
     }
     
     public void main (String ... rays){
-        dawn(s - > s+1);
+        //dawn(s - > s+1);
     }
 }

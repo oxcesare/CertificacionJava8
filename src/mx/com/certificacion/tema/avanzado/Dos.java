@@ -20,15 +20,15 @@ interface I2{
     void m1 () throws java.sql.SQLException;
 }
 
-public class Dos implements I1,I2{
+public class Dos {//implements I1,I2{
     
     public static void main(String[] args) {
         
     }
 
-    @Override
-    public void m1() throws IOException {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+//    @Override
+//    public void m1() throws IOException {
+//        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+//    }
     
 }

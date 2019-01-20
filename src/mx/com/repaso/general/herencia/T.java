@@ -18,7 +18,7 @@ abstract class T {
 
 class BB extends T {
 
-    int m1() {
-        return 1;
-    }
+//    int m1() {
+//        return 1;
+//    }
 }

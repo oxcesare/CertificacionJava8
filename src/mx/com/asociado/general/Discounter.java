@@ -28,7 +28,7 @@ public class Discounter {
         offset = 20;
         base = 10;
     }
-    return coupon*offset*base*value/100; //5  
+    return  0.00; //coupon*offset*base*value/100; //5  
 }   
 public static void main(String[] args) 
 {        

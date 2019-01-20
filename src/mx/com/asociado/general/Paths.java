@@ -14,12 +14,12 @@ import java.nio.file.*;
 public class Paths {
     
     public static void main(String[] args) {
-        Path p1 = Paths.
-        System.out.println(p1.getName(0).toString());
+        //Path p1 = Paths.
+        //System.out.println(p1.getName(0).toString());
     }
     
     public void obtiene(){
-        Path p1 = Paths.get("c:\\a\\b\\c.java");
+        //Path p1 = Paths.get("c:\\a\\b\\c.java");
     }
     
 }

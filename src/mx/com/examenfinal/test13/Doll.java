@@ -26,18 +26,18 @@ public class Doll {
     }
 
     public static void open(UnaryOperator<Doll> task, Doll doll) {
-        while ((doll = task.accept(doll)) != null) {
-            System.out.print("X");
-        }
+//        while ((doll = task.accept(doll)) != null) {
+//            System.out.print("X");
+//        }
     }
 
-    public static void main(String[] wood) {
-        open(s -> {
-            if (s.layer <= 0) {
-                return null;
-            } else {
-                return new Doll(s.layer--); }, 
-            new Doll(5));
-    }
+//    public static void main(String[] wood) {
+//        open(s -> {
+//            if (s.layer <= 0) {
+//                return null;
+//            } else {
+//                return new Doll(s.layer--); }, 
+//            new Doll(5));
+//    }
 
 }
