@@ -23,7 +23,7 @@ import java.io.*;
  * 
  * Corrigiendo estos dos errores ya no debería de haber detalle.
  * 
- * Como nota adicional si tienes una subclase que extiende de runtimen
+ * Como nota adicional si tienes una subclase que extiende de runtime
  * y la quieres colocar dentro del bloque catch 
  * entonces solo puedes poner puras subclases ya que si pones clase padre
  * como exception o runtimeException el compilador te indica un errro en tiempo
