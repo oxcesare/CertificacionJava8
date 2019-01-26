@@ -15,7 +15,8 @@ public class D {
     
     public static void main(String[] args) {
         A a = new A();
-        a.run("");
+        //a.run(""); //Error al invocar el metodo run ya que en la clase 
+                   //el metodo tiene el modificador default.
         
     }
     
