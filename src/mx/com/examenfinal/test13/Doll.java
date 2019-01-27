@@ -15,6 +15,8 @@ import java.util.function.*;
  * En esta clase el error se encuentra en la invocacion al metodo 
  * accept ya que no se encuentra en la definicion de la interface funcional.
  * 
+ * UnaryOperator tiene un unico metodo identity()
+ * 
  */
 public class Doll {
 

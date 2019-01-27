@@ -34,7 +34,9 @@ public class FindMovie {
     }
 
     void printMovies(List<String> movies) {
-        // movies.forEach(printer); //Recordar que forEcha recibe un consumer y no un function
+        //movies.forEach(printer); //Recordar que forEcha recibe un consumer y no un function
+        //Function tiene un retorno
+        //(Consumer<? super T> action
     }
 
     public static void main(String[] screen) {
