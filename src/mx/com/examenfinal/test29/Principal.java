@@ -3,14 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mx.com.examenfinal.test27;
-
+package mx.com.examenfinal.test29;
 
 /**
  *
  * @author cesaralducinruiz
  * 
- *  * * Día 27 de Enero 2019
+ *  * * Día 29 de Enero 2019
  * 
  * Se tiene que hacer un simulador por día 
  * 
