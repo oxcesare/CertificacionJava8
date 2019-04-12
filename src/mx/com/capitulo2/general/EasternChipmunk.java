@@ -16,7 +16,8 @@ package mx.com.capitulo2.general;
  * 3. Solamente cuando implementas una interface debes de implmentar sus métodos
  * 4. Si la clase es abstracta  e implementa la interface no es necesario implementar 
  * los metodos de la interface
- * 5. Para este ejercicio la clase EasternChipmunk extiende de Chipmunk la cual implementa a CanClimbTree
+ * 5. Para este ejercicio la clase EasternChipmunk extiende de Chipmunk 
+ * la cual implementa a CanClimbTree
  * entonces al extender de una clase que implementa una interface debemos de implementar sus metodos
  * 
  * 6. Si solo tenemos una clase que extiende de otra donde no esta inmersa alguna interface
