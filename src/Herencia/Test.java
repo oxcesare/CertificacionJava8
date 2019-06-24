@@ -9,31 +9,31 @@ package Herencia;
  *
  * @author consultor006
  */
+public class Test {
 
-abstract class B {
-    abstract void b();
-}
-
-interface  C {
-    public void c();
-}
-
-class A {
+    public static void main(String[] args) {
+        A a = new A();
+        B b = new B();
+        b.setC("cc");
+        b.setB("bb");
+        a.setA("a");
+        a.setB("b");
+        a.setObjeto(b);
+        
+        Test test = new Test();
+        System.out.println("test.getC(a)" +  " " + test.getC(a));
+        
+    }
     
-    public void a (){
-        System.out.println("Clase A");
-    }
-}
-public class Test extends B  implements C{
-
-    @Override
-    public void c() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    void b() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public C getC (A a){
+        
+        C c = new C();
+        c.setObjeto(a.getObjeto());
+        System.out.println(""+c.getObjeto().getB());
+        System.out.println(""+c.getObjeto().getC());
+        
+        return c;
+        
     }
     
 }
