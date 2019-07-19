@@ -12,6 +12,11 @@ import java.util.List;
 /**
  *
  * @author consultor006
+ * 
+ * 
+ * Implementacion mediante Stream para aplicarlos a un ArrayList.
+ * 
+ * para obtener los elementos de una lista 
  */
 public class Test2 {
     
