@@ -8,6 +8,10 @@
  *
  * @author consultor006
  * El metodo ordinal comienza la enumeracion desde cero
+ * 
+ * Java 8 tiene Enum que podemos utlizar, dentro de lo nuevo de estás
+ * características uno de lo nuevos metodo es ValueOf metodo que recibe una cadena
+ * de tipo String.
  */
 public class EnumsTarget {
     
@@ -25,7 +29,13 @@ public class EnumsTarget {
         }
         //System.err.println("Class"+flavor); //Objeto mal construido
         System.out.println("Método ordinal" +  " " +  flavor.UNO.getDeclaringClass());
-        System.out.println("Método ordinal" +  " " +  flavor.UNO.ordinal());
+        System.out.println("Método ordinal" +  " " +  flavor.valueOf("UNO"));
+        
+        
+        
+        if(flavor.UNO.equals(flavor.valueOf("UNO"))){
+            System.out.println("Esta dentro de los ENUMS");
+        }
         
         
     }
