@@ -7,21 +7,20 @@ package mx.com.certificacion.java8Fiinal.semana5;
 
 /**
  *
+ * 
+ * la clase no marca error porque se inicializo dentro del metodo.
+ * 
+ * Si no la incializaramos mandaria un error.
+ * 
  * @author cesaralducinruiz
  */
-public class Test5 {
-    
-    
-    public static void main(String[] args) {
-           A obj1 = new A();
-           obj1.method(obj1);
+public class InsideMethod extends MyClass{
+        
+    public void insideM(){
+        final int i;
+        i=1;
+        
+        System.out.println(""+i);
     }
-    
-    
-    /**
-     * Metodo de ejemplo para invocar utilizando Reflexion
-     */
-    
-    
     
 }

@@ -9,19 +9,13 @@ package mx.com.certificacion.java8Fiinal.semana5;
  *
  * @author cesaralducinruiz
  */
-public class Test5 {
+public class A {
     
+    int age;
+    String name;
+    float income;
     
-    public static void main(String[] args) {
-           A obj1 = new A();
-           obj1.method(obj1);
+    public void method(A a){
+        
     }
-    
-    
-    /**
-     * Metodo de ejemplo para invocar utilizando Reflexion
-     */
-    
-    
-    
 }
