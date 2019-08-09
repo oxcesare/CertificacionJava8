@@ -9,13 +9,7 @@ package mx.com.examenfinal.test12;
  *
  * @author cesaralducinruiz
  * 
- * 
- * 
- * 
- * 
  */
-
-
 
 public class Test1 {
     
