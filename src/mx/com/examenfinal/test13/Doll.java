@@ -21,10 +21,15 @@ import java.util.function.*;
 public class Doll {
 
     private int layer;
+    public static String $;
 
     public Doll(int layer) {
         super();
         this.layer = layer;
+    }
+    
+    public static void main(String[] args) {
+        System.out.println(""+$);
     }
 
     public static void open(UnaryOperator<Doll> task, Doll doll) {
@@ -41,5 +46,11 @@ public class Doll {
 //                return new Doll(s.layer--); }, 
 //            new Doll(5));
 //    }
+    
+    
+    
+    
+    
+    
 
 }
