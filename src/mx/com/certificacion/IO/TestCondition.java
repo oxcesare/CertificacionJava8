@@ -3,20 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mx.com.certificacion.java8Fiinal.semana8;
-
-import java.io.PrintWriter;
-import java.io.Writer;
+package mx.com.certificacion.IO;
 
 /**
  *
  * @author cesaralducinruiz
  */
-public class ExampleWriter {
-    
+public class TestCondition {
+
     public static void main(String[] args) {
-        try(PrintWriter writer = new PrintWriter(System.out)){
-            writer.println("HELLO");
+        int m = 2;
+
+        if (m > 1) {
+            System.out.println("Si");
         }
+
     }
+
 }

@@ -24,8 +24,6 @@ public class Fechas {
         
         Calendar calendar = new GregorianCalendar(year2, month2,day2);
         
-        
-
         return 1;
 
     }

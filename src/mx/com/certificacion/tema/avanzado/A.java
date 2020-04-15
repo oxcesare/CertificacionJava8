@@ -4,8 +4,6 @@
  * and open the template in the editor.
  */
 package mx.com.certificacion.tema.avanzado;
-
-import com.sun.javafx.scene.control.skin.VirtualFlow;
 import java.util.*;
 
 /**

@@ -9,8 +9,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.DoubleFunction;
 import java.util.function.Function;
-import static javafx.beans.binding.Bindings.and;
-import static javafx.beans.binding.Bindings.when;
 
 
 /**

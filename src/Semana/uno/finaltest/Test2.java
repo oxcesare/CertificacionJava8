@@ -3,20 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mx.com.certificacion.java8Fiinal.semana8;
-
-import java.io.PrintWriter;
-import java.io.Writer;
+package Semana.uno.finaltest;
 
 /**
  *
  * @author cesaralducinruiz
  */
-public class ExampleWriter {
-    
+public class Test2 {
+
     public static void main(String[] args) {
-        try(PrintWriter writer = new PrintWriter(System.out)){
-            writer.println("HELLO");
-        }
+        float f = 51.49f;
+        System.out.println(f);
+        int i = Math.round(f);
+        System.out.println(i);
     }
+
 }

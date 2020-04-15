@@ -18,6 +18,8 @@ import java.util.Calendar;
 public class ComienzaVerano {
     
     public static void main(String[] args) {
+        
+        //Crea una instancia 
         LocalDate date  = LocalDate.of(0, Calendar.JUNE, 12);
         
         System.out.println("************************************");

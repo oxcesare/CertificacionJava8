@@ -13,23 +13,9 @@ public class ExampleJava12 {
 
     public static void switchAssignment() {
         final int value = 2;
-        String numericString;
+        String numericString=null;
 
-        switch (value) {
-            case 1
-                ->
-                numericString = "one";
-            case 2
-                ->
-                numericString = "two";
-            case 3
-                ->
-                numericString = "three";
-            default
-                ->
-                numericString = "N/A";
-        }
-
+       
         System.out.println("value:" + value + " as string: " + numericString);
     }
 

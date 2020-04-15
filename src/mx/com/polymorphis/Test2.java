@@ -3,20 +3,27 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mx.com.certificacion.java8Fiinal.semana8;
-
-import java.io.PrintWriter;
-import java.io.Writer;
+package mx.com.polymorphis;
 
 /**
  *
  * @author cesaralducinruiz
  */
-public class ExampleWriter {
+public class Test2 {
+    
+    static {
+        int a=0;
+        int b=0;
+        System.out.println("1");
+    }
+
+    public Test2() {
+        System.out.println("2");
+    }
     
     public static void main(String[] args) {
-        try(PrintWriter writer = new PrintWriter(System.out)){
-            writer.println("HELLO");
-        }
+        Test2 test2 = new Test2();
     }
+    
+    
 }

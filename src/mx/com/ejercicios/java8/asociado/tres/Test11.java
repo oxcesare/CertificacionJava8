@@ -16,6 +16,8 @@ public class Test11 {
         for (int x = 0; x < 10; x+=r++) {
             System.out.println(++r+",");
         }
+        
+        
     }
    
 }

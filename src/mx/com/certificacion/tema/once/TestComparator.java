@@ -3,20 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mx.com.certificacion.java8Fiinal.semana8;
+package mx.com.certificacion.tema.once;
 
-import java.io.PrintWriter;
-import java.io.Writer;
+import java.util.Comparator;
 
 /**
  *
  * @author cesaralducinruiz
  */
-public class ExampleWriter {
+public class TestComparator {
     
     public static void main(String[] args) {
-        try(PrintWriter writer = new PrintWriter(System.out)){
-            writer.println("HELLO");
-        }
+        Comparator<Integer> comp = Integer::compare;
+        System.out.println(""+comp.compare(Integer.MAX_VALUE, Integer.SIZE));
     }
+    
 }
